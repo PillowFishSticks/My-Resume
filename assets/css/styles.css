@@ -2,7 +2,7 @@
 
 /*--------------------------------------------Navbar*/
 
-#logo {
+.logo {
     color:white;
     font-family: "roboto", sans-serif;
     font-size: 400%;
@@ -24,6 +24,7 @@
 
 #menu a {
     text-decoration: none;
+    font-size: 30px;
     color: #32cd32;
     font-family: "roboto", sans-serif;
 }
@@ -35,24 +36,44 @@
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Mid section*/
 #hero {
-    padding-left: 100px;
-    padding-right:100px;
-    padding-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+    height:400px;
+    width: 400px;
     border-radius: 50%;
     filter: grayscale(100%)
 }
 
 #base {
+    margin-top: 100px;
     font-family: "exo", sans-serif;
     color:white;
     padding-top: 50px;
-    font-size: 300%;
+    font-size: 50px;
 }
 
 .menubtn{
-    height: 100px;
-    width: 100px;
+    height: 140px;
+    width: 140px;
     margin:15px;
     border-radius: 50%;
+}
+
+.menubtn a {
+    font-family: "exo", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+   
+.square {
+    margin-top: 70px;
+    margin-left: 50px;
+    height: 300px;
+    width: 270px;
+    font-family: "exo", sans-serif;
+    color: white;
+    border-style: solid;
+    border-color: white;
 }
 
