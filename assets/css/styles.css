@@ -4,9 +4,18 @@
 
 .logo {
     color:white;
-    font-family: "roboto", sans-serif;
-    font-size: 400%;
+    font-family: "exo", sans-serif;
+    text-decoration: none;
 }
+
+.logo h1 {
+    font-size: 80px;
+}
+
+.logo p {
+    font-size: 30px;
+}
+
 #menu{
     font-size: 110%;
     list-style-type: none;
@@ -24,7 +33,7 @@
 
 #menu a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: #32cd32;
     font-family: "roboto", sans-serif;
 }
@@ -36,20 +45,31 @@
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Mid section*/
 #hero {
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 50px;
-    height:400px;
-    width: 400px;
+    height:500px;
+    width: 500px;
     border-radius: 50%;
-    filter: grayscale(100%)
+    filter: grayscale(100%);
+    border-style:solid;
+    border-color: silver;
+    border-width: 10px;
 }
 
-#base {
-    margin-top: 100px;
+.base {
+    margin-top: 30px;
     font-family: "exo", sans-serif;
     color:white;
     padding-top: 50px;
     font-size: 50px;
+}
+
+.aboutme {
+    margin-top: 30px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 30px;
 }
 
 .menubtn{
@@ -65,15 +85,58 @@
     color: white;
     text-decoration: none;
 }
+
+.menubtn p {
+    font-family: "exo", sans-serif;
+    color: white;
+}
+
+.three-reasons-to-hire {
+    padding-top:50px;
+}
    
 .square {
     margin-top: 70px;
-    margin-left: 50px;
-    height: 300px;
-    width: 270px;
+    margin-left: 20px;
+    height: 400px;
+    width: 370px;
     font-family: "exo", sans-serif;
     color: white;
     border-style: solid;
     border-color: white;
 }
+.square h2 {
+    margin-left: 5px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.square p {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+/*--------------------------------------------Mid section*/
+/*--------------------------------------------Footer*/
+
+footer {
+    padding-top: 50px;
+}
+footer a {
+    float:right;
+}
+
+footer i {
+    font-size: 40px;
+}
+
+.email {
+    float:left;
+}
+
+.phone{
+    float: none;
+}
+
+/*--------------------------------------------Footer*/
 
