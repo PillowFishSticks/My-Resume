@@ -37,7 +37,6 @@
 #hero {
     padding-left: 100px;
     padding-right:100px;
-    padding-top: 50px;
     padding-bottom: 100px;
     border-radius: 50%;
     filter: grayscale(100%)
@@ -46,7 +45,14 @@
 #base {
     font-family: "exo", sans-serif;
     color:white;
-    padding-top: 200px;
+    padding-top: 50px;
     font-size: 300%;
-    border:line;
 }
+
+.menubtn{
+    height: 100px;
+    width: 100px;
+    margin:15px;
+    border-radius: 50%;
+}
+
