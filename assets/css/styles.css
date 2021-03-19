@@ -4,13 +4,17 @@
 
 .logo {
     color:white;
-    font-family: "exo", sans-serif;
+    font-family: "roboto", sans-serif;
     text-decoration: none;
     background-size: 100px;
 }
 
+.logo:hover {
+  color: white
+}
+
 .logo h1 {
-    font-size: 80px;
+    font-size: 50px;
 }
 
 .logo p {
@@ -18,7 +22,7 @@
 }
 
 #menu{
-    font-size: 110%;
+    font-size: 10px;
     list-style-type: none;
     letter-spacing: 4px;
 }
@@ -46,22 +50,19 @@
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Mid section*/
 #hero {
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 50px;
-    height:500px;
-    width: 500px;
+    height:400px;
+    width: 400px;
     border-radius: 50%;
     filter: grayscale(100%);
-    border-style:solid;
-    border-color: silver;
-    border-width: 10px;
 }
 
 .base {
     margin-top: 30px;
-    font-family: "exo", sans-serif;
+    font-family: "roboto", sans-serif;
     color:white;
-    padding-top: 50px;
+    padding-top: 60px;
     font-size: 50px;
 }
 
@@ -70,66 +71,68 @@
     font-family: "exo", sans-serif;
     color:white;
     padding-top: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .menubtn{
-    height: 140px;
-    width: 140px;
+    height: 170px;
+    width: 170px;
     margin:15px;
     border-radius: 50%;
-}
-
-.menubtn a {
-    font-family: "exo", sans-serif;
-    font-size: 30px;
-    color: white;
-    text-decoration: none;
+    border: none;
 }
 
 .menubtn p {
-    font-family: "exo", sans-serif;
+    font-family: "roboto", sans-serif;
     color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.menubtnskill{
+    background-color: #FF1493;
+}
+
+.menubtnskill:hover {
+  background-color: #FF00FF;
+}
+
+.menubtnwork {
+    background-color: #32CD32;
+}
+
+.menubtnwork:hover {
+  background-color: #00FF00;
+}
+
+.menubtncontact {
+    background-color: #40CCFF;
+}
+
+.menubtncontact:hover {
+  background-color: #00BFFF;
 }
 
 .three-reasons-to-hire {
-    padding-top:50px;
-}
-   
-.square {
-    margin-top: 70px;
-    margin-left: 20px;
-    height: 400px;
-    width: 370px;
-    font-family: "exo", sans-serif;
-    color: white;
-    border-style: solid;
-    border-color: white;
-}
-.square h2 {
-    margin-left: 5px;
-    margin-top: 5px;
-    text-decoration: underline;
+    padding-top: 80px;
+    padding-bottom: 10px;
+
 }
 
-.square p {
-    margin-left: 5px;
-    margin-top: 5px;
+.blockskills {
+    background-color: #FF00FF;
+}
+
+.blockpractice {
+    background-color: #32CD32;
+}
+
+.blockexperience {
+    background-color: #40CCFF;
 }
 
 /*--------------------------------------------Mid section*/
 /*--------------------------------------------Footer*/
-
-footer {
-    padding-top: 50px;
-}
-footer a {
-    float:right;
-}
-
-footer i {
-    font-size: 40px;
-}
 
 .email {
     float:left;
