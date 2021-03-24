@@ -160,12 +160,24 @@
     font-size: 20px;
 }
 
+.projectfirst{
+    background-color: #FF00FF;
+}
+
+.projectsecond{
+    background-color: #32CD32;
+}
+
+.projectthird {
+    background-color: #40CCFF;
+}
+
 
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Footer*/
 
 footer {
-    padding-top: 100px;
+    padding-top: 30px;
 }
 .email {
     float:left;
