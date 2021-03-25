@@ -137,9 +137,8 @@
 .projecthero {
     margin-top: 80px;
     margin-left: 100px;
-    height:400px;
-    width: 400px;
-    border-radius: 50%;
+    height:300px;
+    width: 300px;
     filter: grayscale(100%);
 }
 
@@ -148,7 +147,7 @@
     font-family: "roboto", sans-serif;
     color: white;
     padding-top: 100px;
-    padding-right: 90px;
+    padding-right: 120px;
     font-size: 50px;
 }
 
@@ -158,18 +157,30 @@
     color:white;
     padding-top: 10px;
     font-size: 20px;
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
 }
 
 .projectfirst{
-    background-color: #FF00FF;
+    border-top-style: solid;
+    border-color: white;
+    padding-bottom: 5%;
+    padding-left: 100px;
 }
 
 .projectsecond{
-    background-color: #32CD32;
+    border-top-style: solid;
+    border-color: white;
+    padding-bottom: 5%;
 }
 
 .projectthird {
-    background-color: #40CCFF;
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-color: white;
+    padding-bottom: 5%;
 }
 
 
