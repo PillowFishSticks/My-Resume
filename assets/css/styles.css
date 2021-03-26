@@ -127,7 +127,7 @@
 }
 
 .three-reasons-to-hire {
-    padding-top: 10px;
+    padding-top: 50px;
     padding-bottom: 10px;
 }
 
@@ -160,11 +160,10 @@
     margin-bottom: 80px;
     margin-left: 200px;
     float:center;
-    height:400px;
+    height:300px;
     width: 400px;
-    filter: grayscale(100%)
-}
 
+}
 
 .projectfirst{
     border-top-style: solid;
@@ -186,12 +185,22 @@
     margin-top: 50px;
 }
 
+.projecth {
+    font-family: "roboto", sans-serif;
+    color:white;
+    text-align: center;
+}
+
 .myproject {
     margin-top: 10px;
     font-family: "exo", sans-serif;
     color:white;
     padding-top: 10px;
     font-size: 20px;
+}
+
+.projecttext {
+    display:inline-flexbox;
 }
 
 
@@ -256,4 +265,6 @@ footer a {
 }
 
 /*--------------------------------------------Footer*/
+
+
 
