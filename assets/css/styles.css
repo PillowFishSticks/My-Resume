@@ -115,7 +115,7 @@
 }
 
 .three-reasons-to-hire {
-    padding-top: 80px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -134,12 +134,24 @@
 /*--------------------------------------------Mid section*/
 /*--------------------------------------------My Projects*/
 
+.projectspace {
+    padding-bottom: 10%;
+}
+
+.projectheader {
+    font-family: "roboto", sans-serif;
+    color:white;
+    font-size: 50px;
+}
+
 .projecthero {
     margin-top: 80px;
-    margin-left: 100px;
-    height:300px;
-    width: 300px;
-    filter: grayscale(100%);
+    margin-bottom: 80px;
+    margin-left: 200px;
+    float:center;
+    height:400px;
+    width: 400px;
+    filter: grayscale(100%)
 }
 
 .projectheader {
@@ -151,36 +163,32 @@
     font-size: 50px;
 }
 
-.myproject {
-    margin-top: 30px;
-    font-family: "exo", sans-serif;
-    color:white;
-    padding-top: 10px;
-    font-size: 20px;
-    height:100px;
-    width: 100px;
-    border-radius: 50%;
-    background-color: white;
-}
-
 .projectfirst{
     border-top-style: solid;
     border-color: white;
-    padding-bottom: 5%;
-    padding-left: 100px;
 }
 
 .projectsecond{
     border-top-style: solid;
     border-color: white;
-    padding-bottom: 5%;
 }
 
 .projectthird {
     border-top-style:solid;
     border-bottom-style: solid;
     border-color: white;
-    padding-bottom: 5%;
+}
+
+.projectbutton {
+    margin-top: 50px;
+}
+
+.myproject {
+    margin-top: 10px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 
