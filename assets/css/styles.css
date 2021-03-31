@@ -158,34 +158,48 @@
 .projecthero {
     margin-top: 80px;
     margin-bottom: 80px;
-    margin-left: 200px;
+    margin-left: 100px;
     float:center;
     height:300px;
-    width: 400px;
+    width: 500px;
 
 }
 
 .projectfirst{
+    margin-left: 10px;
+    margin-right: 10px;
     border-top-style: solid;
     border-color: white;
 }
 
 .projectsecond{
+    margin-left: 10px;
+    margin-right: 10px;
     border-top-style: solid;
     border-color: white;
 }
 
 .projectthird {
+    margin-left: 10px;
+    margin-right: 10px;
     border-top-style:solid;
     border-bottom-style: solid;
     border-color: white;
 }
 
 .projectbutton {
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.buttontop {
+    border-bottom-style: solid;
+    border-color: white;
+    margin-right: 10%;
 }
 
 .projecth {
+    margin-top: 10px;
     font-family: "roboto", sans-serif;
     color:white;
     text-align: center;
