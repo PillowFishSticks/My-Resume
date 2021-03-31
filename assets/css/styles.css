@@ -146,9 +146,23 @@
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
 
+.resumehero {
+    height:400px;
+    width: 400px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+}
 
-
-
+.downloadcv {
+    width: 30%;
+    margin-left: 50%;
+	font-family: "roboto", sans-serif;
+	text-transform: uppercase;
+	letter-spacing:1px;
+    margin-top: 10px;
+    color: #f4f4f4;
+    background-color: #00FF00;
+}
 
 
 /*--------------------------------------------Resume page*/
