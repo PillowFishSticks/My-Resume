@@ -172,6 +172,7 @@
     letter-spacing:1px;
     text-align: center;
     margin-left: 50px;
+    font-weight: 950;
 }
 
 .languagefirst {
@@ -211,6 +212,39 @@
     text-align: center;
     margin-top: 20px;
     margin-left: 130px;
+}
+
+.myeducation h1 h2 {
+    margin-top: 10px;
+    font-family: "roboto", sans-serif;
+    color:white;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.myeducation p {
+    margin-top: 10px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
+.myexperience h1 h2 {
+    margin-top: 10px;
+    font-family: "roboto", sans-serif;
+    color:white;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.myexperience p {
+    margin-top: 10px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 20px;
 }
 
 
