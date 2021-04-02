@@ -222,6 +222,7 @@
     font-size: 50px;
 }
 
+
 .myeducation p {
     margin-top: 10px;
     font-family: "exo", sans-serif;
@@ -372,6 +373,9 @@ textarea.form-control{
 
 footer {
     padding-top: 30px;
+    bottom: 0px;
+  width:100vw;
+  margin-bottom:0;
 }
 .email {
     float:left;
@@ -383,6 +387,10 @@ footer {
 
 footer a {
     float:right;
+}
+
+.emailadress {
+    float: left;
 }
 
 /*--------------------------------------------Footer*/
