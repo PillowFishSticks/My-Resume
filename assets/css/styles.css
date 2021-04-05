@@ -18,7 +18,8 @@
 }
 
 .logo h1 {
-    font-size: 50px;
+    font-size: 30px;
+    margin-left: 250px;
 }
 
 .logo p {
@@ -377,12 +378,7 @@ textarea.form-control{
 /*--------------------------------------------Contact page*/
 /*--------------------------------------------Footer*/
 
-footer {
-    padding-top: 30px;
-    bottom: 0px;
-  width:100vw;
-  margin-bottom:0;
-}
+
 .email {
     float:left;
 }
