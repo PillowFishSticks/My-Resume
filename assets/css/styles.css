@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Navbar*/
+
  html, body {
     height: 100%;
     margin: 0;
@@ -55,7 +56,7 @@
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
 #hero {
-    margin-top: 120px;
+    margin-top: 100px;
     height:400px;
     width: 400px;
     border-radius: 50%;
@@ -63,7 +64,7 @@
 }
 
 .base {
-    margin-top: 30px;
+    margin-top: 0;
     font-family: "roboto", sans-serif;
     color:white;
     padding-top: 60px;
@@ -75,7 +76,7 @@
     font-family: "exo", sans-serif;
     color:white;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .menubtn{
@@ -140,15 +141,23 @@
 }
 
 .blockskills {
-    background-color: #FF00FF;
+    background-color: #FF1493;
+    margin-bottom: 20px;
 }
 
 .blockpractice {
     background-color: #32CD32;
+    margin-bottom: 20px;
 }
 
 .blockexperience {
     background-color: #40CCFF;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*--------------------------------------------Homepage*/
@@ -159,13 +168,14 @@
 }
 
 .downloadcv {
-    width: 50%;
+    width: 30%;
     font-family: "roboto", sans-serif;
 	text-transform: uppercase;
 	letter-spacing:1px;
     margin-top: 60px;
+    margin-bottom: 40px;
     color: #f4f4f4;
-    background-color: #00FF00;
+    background-color: #32CD32;
 }
 
 .downloadcv a {
@@ -180,6 +190,7 @@
     letter-spacing:1px;
     text-align: center;
     margin-left: 50px;
+    margin-top: 40px;
     font-weight: 950;
 }
 
@@ -192,12 +203,12 @@
     font-size: 16px;
     color: #fff;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 130px;
 }
 
 .languagesecond {
-    background-color: #00FF00;
+    background-color: #32CD32;
     width: 150px;
     height: 150px;
     line-height: 150px;
@@ -205,7 +216,7 @@
     font-size: 16px;
     color: #fff;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 130px;
 }
 
@@ -218,27 +229,31 @@
     font-size: 16px;
     color: #fff;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 130px;
 }
 
+.myeducation, .myexperience {
+    margin-top: 40px;
+}
+
 .myeducation h1 h2 {
-    margin-top: 10px;
     font-family: "roboto", sans-serif;
     color:white;
-    padding-top: 60px;
     font-size: 50px;
 }
 
+.myeducation h2 {
+    margin-top: 60px;
+}
 
 .myeducation p {
     margin-top: 10px;
     font-family: "exo", sans-serif;
     color:white;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
-
 
 .myexperience h1 h2 {
     margin-top: 10px;
@@ -248,17 +263,17 @@
     font-size: 50px;
 }
 
+.myexperience h2 {
+    margin-top: 60px;
+}
+
 .myexperience p {
     margin-top: 10px;
     font-family: "exo", sans-serif;
     color:white;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
-
-
-
-
 
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
@@ -273,13 +288,12 @@
 }
 
 .projecthero {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 80px;
     margin-left: 100px;
     float:center;
     height:300px;
     width: 500px;
-
 }
 
 .projectfirst{
@@ -305,18 +319,11 @@
 }
 
 .projectbutton {
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 10px;
 }
 
-.buttontop {
-    border-bottom-style: solid;
-    border-color: white;
-    margin-right: 10%;
-}
-
 .projecth {
-    margin-top: 10px;
     font-family: "roboto", sans-serif;
     color:white;
     text-align: center;
@@ -327,19 +334,17 @@
     font-family: "exo", sans-serif;
     color:white;
     padding-top: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .projecttext {
     display:inline-flexbox;
 }
 
-
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
 .contactpage {
 	width:100%;
-	height:100%;
 	font-family: "roboto", sans-serif;
 }
 
@@ -347,13 +352,15 @@
 	float: center;
 	font-family: "roboto", sans-serif;
 	text-transform: uppercase;
-	letter-spacing:1px;
+    letter-spacing:1px;
+    margin-top: 40px;
 }
 
 .contactp {
 	float: center;
 	font-size:18px;
     line-height:1.6em;
+    margin-top: 30px;
 }
     
 .contactpage{
@@ -366,19 +373,21 @@ textarea.form-control{
 
 .contactfloat {
     margin-left: 50%;
+    margin-top: 20px;
 	font-family: "roboto", sans-serif;
 	text-transform: uppercase;
 	letter-spacing:1px;
 }
 
 .submitbtn {
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     color: #f4f4f4;
-    background-color: #00FF00;
+    background-color: #32CD32;
 }
+
 /*--------------------------------------------Contact page*/
 /*--------------------------------------------Footer*/
-
 
 .email {
     float:left;
