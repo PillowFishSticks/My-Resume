@@ -137,12 +137,16 @@
     padding-top: 50px;
     padding-bottom: 10px;
     width: 102%;
-    text-align: center;
+    text-align: justify;
+}
+
+.three-reasons-to-hire p {
+    font-size: 18px;
 }
 
 .blockskills {
     background-color: #FF1493;
-    margin-bottom: 20px;
+    margin-bottom: 20px;  
 }
 
 .blockpractice {
@@ -158,6 +162,7 @@
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /*--------------------------------------------Homepage*/
@@ -253,6 +258,7 @@ h2 {
     color:white;
     padding-top: 10px;
     font-size: 18px;
+    text-align: justify;
 }
 
 .myexperience h1 h2 {
@@ -273,6 +279,7 @@ h2 {
     color:white;
     padding-top: 10px;
     font-size: 18px;
+    text-align: justify;
 }
 
 /*--------------------------------------------Resume page*/
@@ -321,12 +328,14 @@ h2 {
 .projectbutton {
     margin-top: 60px;
     margin-bottom: 10px;
+    display: inline;
 }
 
 .projecth {
     font-family: "roboto", sans-serif;
     color:white;
     text-align: center;
+    display: inline;
 }
 
 .myproject {
@@ -337,8 +346,8 @@ h2 {
     font-size: 18px;
 }
 
-.projecttext {
-    display:inline-flexbox;
+.project-text {
+    text-align: justify;
 }
 
 /*--------------------------------------------My Projects*/
