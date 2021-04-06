@@ -149,9 +149,17 @@
     margin-bottom: 20px;  
 }
 
+.blockskills h2 {
+    text-align: center;
+}
+
 .blockpractice {
     background-color: #32CD32;
     margin-bottom: 20px;
+}
+
+.blockpractice h2 {
+    text-align: center;
 }
 
 .blockexperience {
@@ -159,10 +167,13 @@
     margin-bottom: 20px;
 }
 
+.blockexperience h2 {
+   text-align: center;
+}
+
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 /*--------------------------------------------Homepage*/
@@ -325,17 +336,12 @@ h2 {
     border-color: white;
 }
 
-.projectbutton {
-    margin-top: 60px;
-    margin-bottom: 10px;
-    display: inline;
-}
-
 .projecth {
     font-family: "roboto", sans-serif;
     color:white;
     text-align: center;
     display: inline;
+    margin-top: 15px;
 }
 
 .myproject {
