@@ -341,7 +341,7 @@ h2 {
     color:white;
     text-align: center;
     display: inline;
-    margin-top: 15px;
+    margin-top: 60px;
 }
 
 .myproject {
@@ -422,5 +422,23 @@ footer a {
 
 /*--------------------------------------------Footer*/
 
+/** Large devices only **/
+@media (min-width: 1200px) {
 
+}
+
+/** Medium devices only **/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/** Small devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/** Extra small devices only **/
+@media (max-width: 767px) {
+    
+}
 
