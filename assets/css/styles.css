@@ -335,7 +335,7 @@ h2 {
 
 .projecth {
     font-family: "roboto", sans-serif;
-    color:white;
+    color: white;
     text-align: center;
     display: inline;
     margin-top: 60px;
@@ -450,12 +450,21 @@ footer a {
 .menubtn a {
     font-size: 17px;
 }
-
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
 
 
 /*--------------------------------------------Resume page*/
+/*--------------------------------------------My Projects*/
+.projecthero {
+    margin-top: 100px;
+    margin-left: 60px;
+    float:center;
+    height:250px;
+    width: 350px;
+}
+
+/*--------------------------------------------My Projects*/
 
 }
 
