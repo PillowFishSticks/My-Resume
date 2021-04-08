@@ -428,17 +428,13 @@ footer a {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 /*--------------------------------------------Navbar*/
-.logo {
-    text-align: center;
-}
-
 #menu {
     text-align: center;
 }
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
 #hero {
-    margin-top: 50px;
+    margin-top: 130px;
     height: 350px;
     width: 350px;
 }
@@ -449,6 +445,10 @@ footer a {
     margin-right:15px;
     margin-top: 50px;
     margin-bottom: 40px;
+}
+
+.menubtn a {
+    font-size: 17px;
 }
 
 /*--------------------------------------------Homepage*/
