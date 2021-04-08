@@ -53,6 +53,7 @@
 /*--------------------------------------------Homepage*/
 #hero {
     margin-top: 100px;
+    margin-left: 50px;
     height:400px;
     width: 400px;
     border-radius: 50%;
@@ -427,7 +428,7 @@ footer a {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 /*--------------------------------------------Navbar*/
-#logo {
+.logo {
     text-align: center;
 }
 
@@ -437,16 +438,17 @@ footer a {
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
 #hero {
-    margin-top: 30px;
+    margin-top: 50px;
+    height: 350px;
+    width: 350px;
 }
 
-.base {
-    margin-top: 400px;
-    text-align: center;
-}
-
-.menubtn {
-   
+.menubtn{
+    height: 130px;
+    width: 130px;
+    margin-right:15px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Homepage*/
