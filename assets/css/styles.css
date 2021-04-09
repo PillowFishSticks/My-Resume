@@ -202,8 +202,9 @@ h2 {
     font-family: "exo", sans-serif;
     letter-spacing:1px;
     text-align: center;
-    margin-left: 50px;
+    padding-left: 50px;
     margin-top: 40px;
+    margin-bottom: 30px;
     font-weight: 950;
 }
 
@@ -216,8 +217,8 @@ h2 {
     font-size: 16px;
     color: #fff;
     text-align: center;
-    margin-top: 60px;
-    margin-left: 130px;
+    margin-top: 40px;
+    margin-left: 16%;
 }
 
 .languagesecond {
@@ -230,7 +231,7 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 130px;
+    margin-left: 16%;
 }
 
 .languagethird {  
@@ -243,11 +244,13 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 130px;
+    margin-left: 16%;
 }
 
 .myeducation, .myexperience {
-    margin-top: 40px;
+    padding-left: 70px;
+    margin-top: 80px;
+    width: 90%;
 }
 
 .myeducation h1 h2 {
@@ -298,7 +301,7 @@ h2 {
     font-family: "roboto", sans-serif;
     color:white;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -331,6 +334,10 @@ h2 {
     border-top-style:solid;
     border-bottom-style: solid;
     border-color: white;
+}
+
+.projectinfo {
+    margin-top: 60px;
 }
 
 .projecth {
@@ -457,24 +464,102 @@ footer a {
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
 .projecthero {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 60px;
     float:center;
     height:250px;
     width: 350px;
 }
 
+.projecfirst h1 {
+    margin-top: 350px;
+}
 /*--------------------------------------------My Projects*/
-
 }
 
 /** Small devices only **/
 @media (min-width: 768px) and (max-width: 991px) {
+/*--------------------------------------------Navbar*/
+#menu {
+    text-align: center;
+}
+/*--------------------------------------------Navbar*/
+/*--------------------------------------------Homepage*/
+#hero {
+    margin-top: 60px;
+    height: 350px;
+    width: 350px;
+}
 
+.menubtn{
+    height: 130px;
+    width: 130px;
+    margin-right:15px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.menubtn a {
+    font-size: 17px;
+}
+/*--------------------------------------------Homepage*/
+base {
+    margin-top: 100px;
+    font-family: "roboto", sans-serif;
+    color:white;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.aboutme {
+    margin-top: 30px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 18px;
+}
 }
 
 /** Extra small devices only **/
 @media (max-width: 767px) {
+/*--------------------------------------------Navbar*/
+#menu {
+    text-align: center;
+}
+/*--------------------------------------------Navbar*/
+/*--------------------------------------------Homepage*/
+#hero {
+    margin-top: 40px;
+    height: 350px;
+    width: 350px;
+}
 
+.menubtn{
+    height: 130px;
+    width: 130px;
+    margin-right:15px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.menubtn a {
+    font-size: 17px;
+}
+/*--------------------------------------------Homepage*/
+base {
+    margin-top: 100px;
+    font-family: "roboto", sans-serif;
+    color:white;
+    padding-top: 60px;
+    font-size: 50px;
+}
+
+.aboutme {
+    margin-top: 30px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 18px;
+}
 }
 
