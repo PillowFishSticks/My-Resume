@@ -20,29 +20,29 @@
   color: white
 }
 
-#menu{
+#myLinks{
     font-size: 10px;
     list-style-type: none;
     letter-spacing: 4px;
 }
 
-.main-header, #menu{
+.main-header, #myLinks {
     line-height: 75px;
 }
 
-#menu li {
+#myLinks li {
     float: right;
     margin-right: 30px;
 }
 
-#menu a {
+#myLinks a {
     text-decoration: none;
     font-size: 20px;
     color: #32cd32;
     font-family: "roboto", sans-serif;
 }
 
-#menu a:hover{
+#myLinks a:hover{
     border-bottom: 1px solid #32cd32;
 }
 
@@ -435,7 +435,7 @@ footer a {
 @media (min-width: 992px) and (max-width: 1199px) {
 
 /*--------------------------------------------Navbar*/
-#menu {
+#myLinks {
     text-align: center;
 }
 /*--------------------------------------------Navbar*/
@@ -482,101 +482,96 @@ footer a {
 
 /*--------------------------------------------Navbar*/
 
-#menu{
+#myLinks {
     font-size: 10px;
     list-style-type: none;
     letter-spacing: 4px;
 }
 
-#logo, #menu{
+#logo, #myLinks {
     line-height: 75px;
 }
 
-#menu li {
+#myLinks li {
     float: right;
     margin-right: 30px;
 }
 
-#menu a {
+#myLinks a {
     text-decoration: none;
     font-size: 20px;
     color: #32cd32;
     font-family: "roboto", sans-serif;
 }
 
-#menu a:hover{
+#myLinks a:hover{
     border-bottom: 1px solid #32cd32;
 }
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
 .hero img {
     margin-top: 60px;
-    margin-right: 50px;
+    margin-left: 150px;
     height: 350px;
     width: 350px;
-}
-
-.blocksize {
-    margin-bottom: 40px;
 }
 
 .menubtn{
     height: 130px;
     width: 130px;
-    margin-right:15px;
-    margin-top: 50px;
-    margin-bottom: 40px;
-}
-
-.menubtn a {
-    font-size: 17px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
 }
 /*--------------------------------------------Homepage*/
-base {
-    margin-top: 100px;
-    font-family: "roboto", sans-serif;
-    color:white;
-    padding-top: 60px;
-    font-size: 50px;
+/*--------------------------------------------Resume page*/
+.languagefirst {
+    background-color: #FF1493;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10%;
 }
 
-.aboutme {
-    margin-top: 30px;
-    font-family: "exo", sans-serif;
-    color:white;
-    padding-top: 10px;
-    font-size: 18px;
+.languagesecond {
+    background-color: #32CD32;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10%;
 }
+
+.languagethird {  
+    background-color: #40CCFF;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+/*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
 .projecthero {
     margin-top: 50px;
     margin-bottom: 40px;
-    margin-left: 100px;
     float:center;
     height:300px;
     width: 500px;
-}
-
-.projectfirst{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style: solid;
-    border-color: white;
-}
-
-.projectsecond{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style: solid;
-    border-color: white;
-}
-
-.projectthird {
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style:solid;
-    border-bottom-style: solid;
-    border-color: white;
 }
 
 .projectinfo {
@@ -611,22 +606,22 @@ base {
 /*--------------------------------------------Footer*/
 }
 
-
 /** Extra small devices only **/
 @media (max-width: 767px) {
 /*--------------------------------------------Navbar*/
-#menu li {
-    float: center;
+#myLinks li {
+    float: right;
+    font-display: inline-block;
 }
 
-#menu a {
+#myLinks a {
     text-decoration: none;
     font-size: 20px;
     color: #32cd32;
     font-family: "roboto", sans-serif;
 }
 
-#menu a:hover{
+#myLinks a:hover{
     border-bottom: 1px solid #32cd32;
 }
 
@@ -641,6 +636,7 @@ base {
 /*--------------------------------------------Homepage*/
 .hero img {
     margin-top: 40px;
+    margin-left: 70px;
     height: 250px;
     width: 250px;
 }
@@ -649,20 +645,19 @@ base {
     height: 90px;
     width: 90px;
     margin-left: 20px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 .menubtn a {
     font-size: 15px;
 }
-/*--------------------------------------------Homepage*/
+
 base {
     margin-top: 100px;
     font-family: "roboto", sans-serif;
     color:white;
     padding-top: 60px;
-    font-size: 25px;
 }
 
 .aboutme {
@@ -672,70 +667,55 @@ base {
     padding-top: 10px;
     font-size: 16px;
 }
+
+.three-reasons-to-hire {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
 .languages {
     font-size: 30px;
+    text-align: center;
 }
 
 .myexperience, .myeducation h1 {
     font-size: 30px;
 }
 
+.myeducation, .myexperience {
+    padding-left: 70px;
+    margin-top: 40px;
+    width: 90%;
+}
+
 .languagefirst {
     font-size: 16px;
-    margin-left: 120px;
+    margin-left: 130px;
 }
 
 .languagesecond {
     font-size: 16px;
-    margin-left: 120px;
+    margin-left: 130px;
 }
 
 .languagethird {  
     font-size: 16px;
-    margin-left: 120px;
+    margin-left: 130px;
 }
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
-.projectheader {
-    font-family: "roboto", sans-serif;
-    color:white;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    text-align: center;
-}
-
 .projecthero {
-    margin-top: 60px;
-    height:300px;
-    width: 500px;
-}
-
-.projectfirst{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style: solid;
-    border-color: white;
-}
-
-.projectsecond{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style: solid;
-    border-color: white;
-}
-
-.projectthird {
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style:solid;
-    border-bottom-style: solid;
-    border-color: white;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height:200px;
+    width: 350px;
+    margin-left: 0;
 }
 
 .projectinfo {
-    margin-top: 60px;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .projecth {
@@ -743,7 +723,6 @@ base {
     color: white;
     text-align: center;
     display: inline;
-    margin-top: 60px;
 }
 
 .myproject {
@@ -756,8 +735,92 @@ base {
 
 .project-text {
     text-align: justify;
-}
+    margin-bottom: 50px;
 }
 /*--------------------------------------------My Projects*/
+/*--------------------------------------------Contact page*/
+.contactpage {
+	width:100%;
+	font-family: "roboto", sans-serif;
+}
+
+.contactheader {
+	float: center;
+	font-family: "roboto", sans-serif;
+	text-transform: uppercase;
+    letter-spacing:1px;
+    margin-top: 40px;
+}
+
+.contactp {
+	float: center;
+	font-size:18px;
+    line-height:1.6em;
+    margin-top: 30px;
+}
+    
+.contactpage{
+    color:#f4f4f4;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+.contactfloat {
+    margin-top: 20px;
+    margin-left: 0;
+	font-family: "roboto", sans-serif;
+	text-transform: uppercase;
+	letter-spacing:1px;
+}
+
+.submitbtn {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #f4f4f4;
+    background-color: #32CD32;
+}
+
+/*--------------------------------------------Contact page*/
+/*--------------------------------------------Footer*/
+.footer {
+    width: 70%;
+}
+/*--------------------------------------------Footer*/
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #menu {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+}
 
 
