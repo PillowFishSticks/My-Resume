@@ -48,7 +48,7 @@
 
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
-#hero {
+.hero img {
     margin-top: 100px;
     margin-left: 50px;
     height:400px;
@@ -440,7 +440,7 @@ footer a {
 }
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
-#hero {
+.hero img {
     margin-top: 130px;
     height: 350px;
     width: 350px;
@@ -507,10 +507,9 @@ footer a {
 #menu a:hover{
     border-bottom: 1px solid #32cd32;
 }
-}
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
-#hero {
+.hero img {
     margin-top: 60px;
     margin-right: 50px;
     height: 350px;
@@ -548,6 +547,7 @@ base {
     padding-top: 10px;
     font-size: 18px;
 }
+}
 
 /** Extra small devices only **/
 @media (max-width: 767px) {
@@ -574,10 +574,9 @@ base {
    margin-bottom: 20px;
    background-color: white;
 }
-}
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
-#hero {
+.hero img {
     margin-top: 40px;
     height: 250px;
     width: 250px;
@@ -695,7 +694,7 @@ base {
 .project-text {
     text-align: justify;
 }
-
+}
 /*--------------------------------------------My Projects*/
 
 
