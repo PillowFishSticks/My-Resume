@@ -4,6 +4,7 @@
 
  html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
 
@@ -65,7 +66,7 @@
 }
 
 .blocksize {
-    height: 100px;
+    height: 150px;
 }
 
 .aboutme {
@@ -478,6 +479,7 @@ footer a {
 
 /** Small devices only **/
 @media (min-width: 768px) and (max-width: 991px) {
+
 /*--------------------------------------------Navbar*/
 
 #menu{
@@ -513,6 +515,10 @@ footer a {
     margin-right: 50px;
     height: 350px;
     width: 350px;
+}
+
+.blocksize {
+    margin-bottom: 40px;
 }
 
 .menubtn{
