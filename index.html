@@ -48,27 +48,29 @@
         </div>
         <div class="col-md-6 col-sm-12">
             <h2 class="base">Designer, Developer, Programmer</h2>
+            <div class="blocksize">
             <div id="typewriter" class="aboutme"></div>
+            </div>
             <script>
- var str = "<p>Im a fullstack software developer currently living in China. My passion is designing and developing programms at work and in my free time. I am proficient in HTML, CSS, JavaScript, and Python. Feel free to further explore my resume site, please find my education, professional experience, and contact information below.</p>",
-    i = 0,
-    isTag,
-    text;
+                var str = "<p>Im a fullstack software developer currently living in China. My passion is designing and developing programms at work and in my free time. I am proficient in HTML, CSS, JavaScript, and Python. Feel free to further explore my resume site, please find my education, professional experience, and contact information below.</p>",
+                i = 0,
+                isTag,
+                text;
 
-(function type() {
-    text = str.slice(0, ++i);
-    if (text === str) return;
+                (function type() {
+                text = str.slice(0, ++i);
+                if (text === str) return;
     
-    document.getElementById('typewriter').innerHTML = text;
+                document.getElementById('typewriter').innerHTML = text;
 
-    var char = text.slice(-1);
-    if( char === '<' ) isTag = true;
-    if( char === '>' ) isTag = false;
+                var char = text.slice(-1);
+                if( char === '<' ) isTag = true;
+                if( char === '>' ) isTag = false;
 
-    if (isTag) return type();
-    setTimeout(type, 20);
-}());
- </script>
+                if (isTag) return type();
+                setTimeout(type, 20);
+                }());
+            </script>
             <button type="button" class="btn btn-primary btn-sm btn-one menubtn menubtnskill text-center">
                 <a href="resume.html">MY SKILLS</a>
             </button>
