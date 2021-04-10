@@ -446,12 +446,12 @@ footer a {
     width: 350px;
 }
 
-.menubtn{
+.menubtn {
     height: 130px;
     width: 130px;
     margin-right:15px;
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 90px;
+    margin-bottom: 30px;
 }
 
 .menubtn a {
@@ -547,7 +547,70 @@ base {
     padding-top: 10px;
     font-size: 18px;
 }
+/*--------------------------------------------My Projects*/
+.projecthero {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    float:center;
+    height:300px;
+    width: 500px;
 }
+
+.projectfirst{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-style: solid;
+    border-color: white;
+}
+
+.projectsecond{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-style: solid;
+    border-color: white;
+}
+
+.projectthird {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+.projectinfo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.projecth {
+    font-family: "roboto", sans-serif;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+
+.myproject {
+    margin-top: 10px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.project-text {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+/*--------------------------------------------My Projects*/
+/*--------------------------------------------Footer*/
+.footer {
+    width: 75%;
+}
+/*--------------------------------------------Footer*/
+}
+
 
 /** Extra small devices only **/
 @media (max-width: 767px) {
