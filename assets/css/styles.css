@@ -13,39 +13,39 @@
     font-family: "roboto", sans-serif;
     text-decoration: none;
     font-size: 20px;
-    margin-left: 250px;
+    margin-left: 100px;
 }
 
 .main-header:hover {
-  color: white
+  color: white;
+  text-decoration: none;
 }
 
-#myLinks{
+#navbarNav{
     font-size: 10px;
     list-style-type: none;
     letter-spacing: 4px;
 }
 
-.main-header, #myLinks {
+.main-header, #navbarNav {
     line-height: 75px;
 }
 
-#myLinks li {
-    float: right;
-    margin-right: 30px;
+#navbarNav li {
+    margin-right: 20px;
 }
 
-#myLinks a {
+#navbarNav a {
     text-decoration: none;
     font-size: 20px;
     color: #32cd32;
     font-family: "roboto", sans-serif;
+    float: right;
 }
 
-#myLinks a:hover{
+.active a:hover{
     border-bottom: 1px solid #32cd32;
 }
-
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
 .hero img {
@@ -203,11 +203,11 @@ h2 {
     font-size: 40px;
     font-family: "exo", sans-serif;
     letter-spacing:1px;
-    text-align: center;
     padding-left: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
     font-weight: 950;
+    text-align: center;
 }
 
 .languagefirst {
@@ -265,7 +265,7 @@ h2 {
     margin-top: 60px;
 }
 
-.myeducation p {
+.myeducation p li {
     margin-top: 10px;
     font-family: "exo", sans-serif;
     color:white;
@@ -286,7 +286,7 @@ h2 {
     margin-top: 60px;
 }
 
-.myexperience p {
+.myexperience p li {
     margin-top: 10px;
     font-family: "exo", sans-serif;
     color:white;
@@ -428,15 +428,17 @@ footer a {
 
 /** Large devices only **/
 @media (min-width: 1200px) {
-
+.active {
+    border-bottom: 1px solid #32cd32;
+}
 }
 
 /** Medium devices only **/
 @media (min-width: 992px) and (max-width: 1199px) {
 
 /*--------------------------------------------Navbar*/
-#myLinks {
-    text-align: center;
+.active {
+    border-bottom: 1px solid #32cd32;
 }
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
@@ -609,6 +611,34 @@ footer a {
 /** Extra small devices only **/
 @media (max-width: 767px) {
 /*--------------------------------------------Navbar*/
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #menu {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
 .main-header {
     color:white;
     font-family: "roboto", sans-serif;
@@ -687,8 +717,12 @@ base {
     text-align: center;
 }
 
-.myexperience, .myeducation h1 {
-    font-size: 30px;
+.myexperience p {
+    font-size: 16px;
+}
+
+.myeducation p {
+    font-size: 16px;
 }
 
 .myeducation, .myexperience {
@@ -796,34 +830,6 @@ textarea.form-control{
     width: 70%;
 }
 /*--------------------------------------------Footer*/
-
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #menu {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
 }
 
 
