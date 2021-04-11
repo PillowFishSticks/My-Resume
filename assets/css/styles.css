@@ -609,9 +609,17 @@ footer a {
 /** Extra small devices only **/
 @media (max-width: 767px) {
 /*--------------------------------------------Navbar*/
+.main-header {
+    color:white;
+    font-family: "roboto", sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
 #myLinks li {
-    float: right;
-    font-display: inline-block;
+    display: block;
 }
 
 #myLinks a {
@@ -788,6 +796,7 @@ textarea.form-control{
     width: 70%;
 }
 /*--------------------------------------------Footer*/
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -814,12 +823,6 @@ textarea.form-control{
   position: absolute;
   right: 20px;
   top: 20px;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
 }
 }
 
