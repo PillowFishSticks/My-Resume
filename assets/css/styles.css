@@ -46,6 +46,10 @@
 .active a:hover{
     border-bottom: 1px solid #32cd32;
 }
+
+.navbar-toggler {
+    margin-top: 20px;
+}
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
 .hero img {
@@ -508,6 +512,10 @@ footer a {
 
 #myLinks a:hover{
     border-bottom: 1px solid #32cd32;
+}
+
+.main-header {
+    margin-top: 30px;
 }
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
