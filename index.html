@@ -1,145 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark Percy</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
 </head>
+
 <body class="bg-dark">
-<section>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid topnav">
-                <a class="logo main-header"><h1>Mark Percy</h1></a>
-                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse navbar-dark bg-dark" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="resume.html">Resume</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="project.html">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </div>
-  </div>
-</nav>
-    </header>
-</section>
-<section class="bg-dark">
-    <div class="container">
-        <div class="row">
-        <div class="col">
-            <div class="hero">
-                <img src="assets/img/hero-image.png">
-            </div>
-        </div>
-        <div class="col">
-            <h2 class="base">Designer, Developer, Programmer</h2>
-            <div class="blocksize">
-            <div id="typewriter" class="aboutme"></div>
-            </div>
-            <script>
-                var str = "<p>Im a fullstack software developer currently living in China. My passion is designing and developing programs at work and in my free time. I am proficient in HTML, CSS, JavaScript, jQuery and Python. Feel free to further explore my resume site, please find my education, professional experience, and contact information below.</p>",
-                i = 0,
-                isTag,
-                text;
-
-                (function type() {
-                text = str.slice(0, ++i);
-                if (text === str) return;
-    
-                document.getElementById('typewriter').innerHTML = text;
-
-                var char = text.slice(-1);
-                if( char === '<' ) isTag = true;
-                if( char === '>' ) isTag = false;
-
-                if (isTag) return type();
-                setTimeout(type, 20);
-                }());
-            </script>
-            <button type="button" class="btn btn-primary btn-sm btn-one menubtn menubtnskill text-center">
-                <a href="resume.html">MY SKILLS</a>
-            </button>
-            <button type="button" class="btn btn-secondary btn-sm btn-two menubtn menubtnwork text-center">
-                <a href="project.html">MY WORK</a>
-            </button> 
-            <button type="button" class="btn btn-secondary btn-sm btn-three menubtn menubtncontact text-center">
-                <a href="#">MY CONTACT</a>
-            </button>      
-        </div>
-    </div>
-    </div>
-</section>
-<section class="bg-dark three-reasons-to-hire">
-    <div class="container">
-        <div class="row">
-            <div class=" col-md-4 col-sm-12 blockskills">
-                <h2>Skilled</h2>
-                <p>I am proficient in both frontend and backend development. I am skilled in the following 
-                    programming languages; HTML, CSS, JavaScript, jQuery and Python. Please see my resume
-                    for further details. 
-                </p>
-            </div>
-            <div class="col-md-4 col-12 blockpractice">
-                <h2>Best Practice</h2>
-                <p>My code follows coding standards and best practices. Including, but not limited to writing 
-                    comments and documentation, writing readable and efficient code.
-                </p>
-            </div>
-            <div class="col-md-4 col-12 blockexperience">
-                <h2>Experience</h2>
-                <p>I have been working in the software development industry for 2 years, as a fullstack developer.
-                   I am experienced in doing individual and team projects, please see my resume and project tabs 
-                   for further details. 
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-<footer class="container bg-dark text-center text-white footer">
-  <div class="row p-4">
-    <section class="col mb-4">
-    <a class="btn btn-outline-light btn-floating m-1 phone" role="button">
-        <i class="fas fa-phone-square-alt"></i>
-        <span>Call Me: 185 2623 1924</span>
-    </a>
-    <a class="btn btn-outline-light btn-floating m-1 email" href="contact.html" role="button">
-        <i class="far fa-envelope"></i>
-        <span>Email Me: Markcpercy@gmail.com</span>
-    </a>
-    <a class="btn btn-outline-light btn-floating m-1" href="www.facebook.com" role="button">
-        <i class="fab fa-facebook-f"></i>
-    </a>
-    <a class="btn btn-outline-light btn-floating m-1" href="www.instagram.com" role="button">
-        <i class="fab fa-instagram"></i>
-    </a>
-    <a class="btn btn-outline-light btn-floating m-1" href="www.linkedin.com" role="button">
-        <i class="fab fa-linkedin-in"></i>
-    </a>
-    <a class="btn btn-outline-light btn-floating m-1" href="www.github.com" role="button">
-        <i class="fab fa-github"></i>
-    </a>
+    <section>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid topnav">
+                    <a class="logo main-header">
+                        <h1>Mark Percy</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-dark bg-dark" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="resume.html">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="project.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
     </section>
-    </div>
-</footer>
-</section>
+    <section class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="hero">
+                        <img src="assets/img/hero-image.png">
+                    </div>
+                </div>
+                <div class="col">
+                    <h2 class="base">Designer, Developer, Programmer</h2>
+                    <div class="blocksize">
+                        <div id="typewriter" class="aboutme"></div>
+                    </div>
+                    <script>
+                        var str = "<p>Im a fullstack software developer currently living in China. My passion is designing and developing programs at work and in my free time. I am proficient in HTML, CSS, JavaScript, jQuery and Python. Feel free to further explore my resume site, please find my education, professional experience, and contact information below.</p>",
+                            i = 0,
+                            isTag,
+                            text;
+
+                        (function type() {
+                            text = str.slice(0, ++i);
+                            if (text === str) return;
+
+                            document.getElementById('typewriter').innerHTML = text;
+
+                            var char = text.slice(-1);
+                            if (char === '<') isTag = true;
+                            if (char === '>') isTag = false;
+
+                            if (isTag) return type();
+                            setTimeout(type, 20);
+                        }());
+                    </script>
+                    <button type="button" class="btn btn-primary btn-sm btn-one menubtn menubtnskill text-center">
+                        <a href="resume.html">MY SKILLS</a>
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-sm btn-two menubtn menubtnwork text-center">
+                        <a href="project.html">MY WORK</a>
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-sm btn-three menubtn menubtncontact text-center">
+                        <a href="#">MY CONTACT</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-dark three-reasons-to-hire">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-4 col-sm-12 blockskills">
+                    <h2>Skilled</h2>
+                    <p>I am proficient in both frontend and backend development. I am skilled in the following
+                        programming languages; HTML, CSS, JavaScript, jQuery and Python. Please see my resume
+                        for further details.
+                    </p>
+                </div>
+                <div class="col-md-4 col-12 blockpractice">
+                    <h2>Best Practice</h2>
+                    <p>My code follows coding standards and best practices. Including, but not limited to writing
+                        comments and documentation, writing readable and efficient code.
+                    </p>
+                </div>
+                <div class="col-md-4 col-12 blockexperience">
+                    <h2>Experience</h2>
+                    <p>I have been working in the software development industry for 2 years, as a fullstack developer.
+                        I am experienced in doing individual and team projects, please see my resume and project tabs
+                        for further details.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <footer class="container bg-dark text-center text-white footer">
+            <div class="row p-4">
+                <section class="col mb-4">
+                    <a class="btn btn-outline-light btn-floating m-1 phone" role="button">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <span>Call Me: 185 2623 1924</span>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1 email" href="contact.html" role="button">
+                        <i class="far fa-envelope"></i>
+                        <span>Email Me: Markcpercy@gmail.com</span>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="www.facebook.com" role="button">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="www.instagram.com" role="button">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="www.linkedin.com" role="button">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="www.github.com" role="button">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </section>
+            </div>
+        </footer>
+    </section>
 </body>
+
 </html>

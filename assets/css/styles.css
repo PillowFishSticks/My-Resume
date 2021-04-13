@@ -6,6 +6,8 @@
     height: 100%;
     width: 100%;
     margin: 0;
+    margin-top: 30px;
+    font-family: "exo", sans-serif;
 }
 
 .main-header {
@@ -181,18 +183,14 @@ h2 {
 
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
-
-.downloadcenter {
-    text-align: center;
-}
-
 .downloadcv {
-    width: 30%;
+    width: 60%;
     font-family: "roboto", sans-serif;
 	text-transform: uppercase;
 	letter-spacing:1px;
     margin-top: 60px;
     margin-bottom: 40px;
+    margin-left: 450px;
     color: #f4f4f4;
     background-color: #32CD32;
 }
@@ -202,16 +200,15 @@ h2 {
     color: #f4f4f4;
 }
 
-.languages {
+.languages h1 {
     color: #f4f4f4;
     font-size: 40px;
-    font-family: "exo", sans-serif;
+    font-family: "roboto", sans-serif;
     letter-spacing:1px;
-    padding-left: 50px;
     margin-top: 40px;
     margin-bottom: 30px;
     font-weight: 950;
-    text-align: center;
+    margin-left: 400px;
 }
 
 .languagefirst {
@@ -251,6 +248,7 @@ h2 {
     text-align: center;
     margin-top: 40px;
     margin-left: 16%;
+    font-family: "exo", sans-serif;
 }
 
 .myeducation, .myexperience {
@@ -480,7 +478,16 @@ footer a {
 .projecfirst h1 {
     margin-top: 350px;
 }
+
+.languages h1 {
+    margin-left: 330px;
+}
 /*--------------------------------------------My Projects*/
+/*--------------------------------------------Contact page*/
+.downloadcv {
+  margin-left: 370px;
+}
+/*--------------------------------------------Contact page*/
 }
 
 /** Small devices only **/
@@ -536,6 +543,10 @@ footer a {
 }
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
+.languages h1 {
+    margin-left: 230px;
+}
+
 .languagefirst {
     background-color: #FF1493;
     width: 150px;
@@ -609,6 +620,11 @@ footer a {
     margin-bottom: 50px;
 }
 /*--------------------------------------------My Projects*/
+/*--------------------------------------------Contact page*/
+.downloadcv {
+  margin-left: 270px;
+}
+/*--------------------------------------------Contact page*/
 /*--------------------------------------------Footer*/
 .footer {
     width: 75%;
@@ -720,9 +736,9 @@ base {
 }
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
-.languages {
+.languages h1 {
+    margin-left: 110px;
     font-size: 30px;
-    text-align: center;
 }
 
 .myexperience p {
@@ -832,6 +848,10 @@ textarea.form-control{
     background-color: #32CD32;
 }
 
+.downloadcv {
+  margin-left: 135px;
+}
+
 /*--------------------------------------------Contact page*/
 /*--------------------------------------------Footer*/
 .footer {
@@ -839,5 +859,6 @@ textarea.form-control{
 }
 /*--------------------------------------------Footer*/
 }
+
 
 
