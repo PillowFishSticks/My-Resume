@@ -99,7 +99,7 @@
     border-radius: 50%;
     display: inline-block;
     margin-top: 80px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .menuskill:hover {
@@ -114,7 +114,7 @@
     border-radius: 50%;
     display: inline-block;
     margin-top: 80px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .menuwork:hover {
@@ -129,7 +129,7 @@
     border-radius: 50%;
     display: inline-block;
     margin-top: 80px;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .menucontact:hover {
@@ -440,16 +440,46 @@ footer a {
     width: 350px;
 }
 
-.menubtn {
-    height: 130px;
-    width: 130px;
-    margin-right:15px;
-    margin-top: 90px;
-    margin-bottom: 30px;
+.menu p {
+    font-family: "roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 
-.menubtn a {
-    font-size: 17px;
+.menuskill {
+    background-color: #FF1493;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.menuwork {
+    background-color: #32CD32;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.menucontact {
+    background-color: #40CCFF;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 5px;
+    margin-bottom: 20px;
 }
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------My Projects*/
@@ -516,13 +546,46 @@ footer a {
     width: 350px;
 }
 
-.menubtn{
-    height: 130px;
-    width: 130px;
-    margin-right: 20px;
+.menu p {
+    font-family: "roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 60px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuskill {
+    background-color: #FF1493;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
     margin-top: 20px;
+    margin-left: 50px;
     margin-bottom: 20px;
-    margin-left: 70px;
+}
+
+.menuwork {
+    background-color: #32CD32;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.menucontact {
+    background-color: #40CCFF;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
 }
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
@@ -681,16 +744,46 @@ footer a {
     width: 250px;
 }
 
-.menubtn{
+.menu p {
+    font-family: "roboto", sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuskill {
+    background-color: #FF1493;
     height: 90px;
     width: 90px;
-    margin-left: 5px;
-    margin-top: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 10px;
     margin-bottom: 20px;
 }
 
-.menubtn a {
-    font-size: 15px;
+.menuwork {
+    background-color: #32CD32;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.menucontact {
+    background-color: #40CCFF;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 base {
