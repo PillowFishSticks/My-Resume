@@ -93,7 +93,7 @@
     border: none;
 }
 
-.menubtn a {
+.menubtna {
     font-family: "roboto", sans-serif;
     color: white;
     font-size: 20px;
@@ -109,10 +109,6 @@
   background-color: #FF00FF;
 }
 
-.menubtnwork:active {
-    background-color: #FF00FF
-}
-
 .menubtnwork {
     background-color: #32CD32;
 }
@@ -121,9 +117,6 @@
   background-color: #00FF00;
 }
 
-.menubtnwork:active {
-    background-color: #00FF00;
-}
 
 .menubtncontact {
     background-color: #40CCFF;
@@ -133,9 +126,7 @@
   background-color: #00BFFF;
 }
 
-.menubtnwork:active {
-    background-color: #00BFFF;
-}
+
 
 .three-reasons-to-hire {
     padding-top: 50px;
