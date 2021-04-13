@@ -679,7 +679,7 @@ footer a {
 .menubtn{
     height: 90px;
     width: 90px;
-    margin-left: 20px;
+    margin-left: 5px;
     margin-top: 70px;
     margin-bottom: 20px;
 }
@@ -825,7 +825,7 @@ textarea.form-control{
 /*--------------------------------------------Contact page*/
 /*--------------------------------------------Footer*/
 .footer {
-    width: 70%;
+    width: 80%;
 }
 /*--------------------------------------------Footer*/
 }
