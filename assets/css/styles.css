@@ -192,16 +192,17 @@ h2 {
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
 .downloadcv {
-    width: 60%;
+    width: 30%;
     font-family: "roboto", sans-serif;
 	text-transform: uppercase;
 	letter-spacing:1px;
     margin-top: 60px;
     margin-bottom: 40px;
-    margin-left: 450px;
     color: #f4f4f4;
     background-color: #32CD32;
+    margin-left: 35%;
 }
+
 
 .downloadcv a {
     text-decoration: none;
@@ -935,6 +936,9 @@ textarea.form-control{
     width: 80%;
 }
 /*--------------------------------------------Footer*/
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
 }
 
 
