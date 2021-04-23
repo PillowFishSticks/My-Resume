@@ -9,6 +9,10 @@
     font-family: "exo", sans-serif;
 }
 
+.fixed-navbar {
+    position: fixed;
+}
+
 .main-header {
     color:white;
     font-family: "roboto", sans-serif;
