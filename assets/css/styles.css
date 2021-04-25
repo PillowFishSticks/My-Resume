@@ -359,6 +359,43 @@ h2 {
 .project-text {
     text-align: justify;
 }
+
+.resumebtn {
+    background-color: #FF1493;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+.projectbtn {
+    background-color: #32CD32;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+.cafebtn {
+    background-color: #40CCFF;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+}
+
+.project p {
+    font-family: "exo", sans-serif;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+
+
+
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
 .contactpage {
