@@ -256,6 +256,15 @@ This project is hosted in GitHub pages
 
 ## To run the project locally 
 
+To clone this project from GitHub
+
+1. Under the repository's name, click **Clone or download**. 
+2. In the **Clone with HTTPs** section, copy the given URL. 
+3. In your IDE of choice, open **Git Bash**. 
+4. Change the current working directory to the location where you want the cloned directory to be made. 
+5. Type **git clone**, and then paste the URL copied from GitHub.
+6. Press **enter** and the clone will be created. 
+
 # Credits
 
 ## Images
