@@ -6,23 +6,19 @@
 
 * Home Page
 
-[index validator](/readme-files/index-validator.png)
+![index validator](/readme-files/index-validator.png)
+
+* Resume Page
+
+![resume validator](/readme-files/resume-validator.png)
 
 * Home Page
 
-[index validator](/readme-files/index-validator.png)
+![Project validator](/readme-files/project-validator.png)
 
 * Home Page
 
-[index validator](/readme-files/index-validator.png)
-
-* Home Page
-
-[index validator](/readme-files/index-validator.png)
-
-* Home Page
-
-[index validator](/readme-files/index-validator.png)
+![Contact validator](/readme-files/contact-validator.png)
 
 [CSS validator](https://jigsaw.w3.org/css-validator/validator)
 
