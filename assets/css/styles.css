@@ -397,10 +397,6 @@ h2 {
     text-decoration: none;
     margin-top: 7px;
 }
-
-
-
-
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
 .contactpage {
@@ -475,11 +471,6 @@ footer a {
 
 /** Medium devices only **/
 @media (min-width: 992px) and (max-width: 1199px) {
-
-.smallscreen {
-    margin-top: 10%;
-}
-
 /*--------------------------------------------Navbar*/
 .active {
     border-bottom: 1px solid #32cd32;
@@ -487,16 +478,20 @@ footer a {
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
 .hero img {
-    margin-top: 130px;
+    margin-top: 160px;
     height: 350px;
     width: 350px;
+}
+
+.base {
+    margin-top: 100px;
 }
 
 .menu p {
     font-family: "roboto", sans-serif;
     color: white;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     text-decoration: none;
 }
@@ -509,7 +504,6 @@ footer a {
     display: inline-block;
     margin-top: 90px;
     margin-left: 5px;
-    margin-bottom: 20px;
 }
 
 .menuwork {
@@ -520,7 +514,6 @@ footer a {
     display: inline-block;
     margin-top: 90px;
     margin-left: 5px;
-    margin-bottom: 20px;
 }
 
 .menucontact {
@@ -531,7 +524,6 @@ footer a {
     display: inline-block;
     margin-top: 90px;
     margin-left: 5px;
-    margin-bottom: 20px;
 }
 /*--------------------------------------------Home page*/
 /*--------------------------------------------Resume page*/
@@ -557,7 +549,7 @@ footer a {
    font-family: "roboto", sans-serif;
    text-transform: uppercase;
    letter-spacing:1px; 
-   margin-left: 130px;
+   margin-left: 80px;
    margin-top: 15px;
 }
 
@@ -612,8 +604,7 @@ footer a {
 }
 
 .myeducation, .myexperience {
-    margin-top: 80px;
-    margin-right: 100px;
+    margin: 40px;
     width: 80%;
 }
 /*--------------------------------------------Resume page*/
@@ -746,7 +737,7 @@ footer a {
 /*--------------------------------------------Resume page*/
 .downloadcv {
     width: 30%;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 40px;
     margin-left: 35%;
     background-color: #32CD32;
@@ -805,17 +796,23 @@ footer a {
     margin-top: 40px;
     margin-left: 10%;
 }
+
+.myeducation, .myexperience {
+    margin: 40px;
+    width: 80%;
+}
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
 .projecthero {
     margin-top: 50px;
     margin-bottom: 40px;
+    margin-left: 90px;
     height:300px;
     width: 500px;
 }
 
 .projectinfo {
-    margin-top: 10px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -838,10 +835,26 @@ footer a {
     text-align: justify;
     margin-bottom: 50px;
 }
+
+.resumebtn {
+    margin-bottom: 20px;
+}
+
+.projectbtn {
+    margin-bottom: 20px;
+}
+
+.cafebtn {
+    margin-bottom: 20px;
+}
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
 .downloadcv {
   margin-left: 270px;
+}
+
+.contactheader {
+    margin-top: 150px;
 }
 /*--------------------------------------------Contact page*/
 /*--------------------------------------------Footer*/
@@ -938,7 +951,7 @@ footer a {
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
-    margin-left: 10px;
+    margin-left: 30%;
     margin-bottom: 20px;
 }
 
@@ -949,7 +962,7 @@ footer a {
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
-    margin-left: 10px;
+    margin-left: 30%;
     margin-bottom: 20px;
 }
 
@@ -960,7 +973,7 @@ footer a {
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
-    margin-left: 10px;
+    margin-left: 30%;
     margin-bottom: 20px;
 }
 
@@ -1018,8 +1031,7 @@ base {
 }
 
 .myeducation, .myexperience {
-    padding-left: 70px;
-    margin-top: 40px;
+    margin: 20px;
     width: 90%;
 }
 
@@ -1040,11 +1052,9 @@ base {
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
 .projecthero {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin: 25px;
     height:200px;
-    width: 350px;
-    margin-left: 0;
+    width: 370px;
 }
 
 .projectinfo {
@@ -1069,7 +1079,19 @@ base {
 
 .project-text {
     text-align: justify;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+.resumebtn {
+    margin-bottom: 20px;
+}
+
+.projectbtn {
+    margin-bottom: 20px;
+}
+
+.cafebtn {
+    margin-bottom: 20px;
 }
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
@@ -1082,7 +1104,7 @@ base {
 	font-family: "roboto", sans-serif;
 	text-transform: uppercase;
     letter-spacing:1px;
-    margin-top: 40px;
+    margin-top: 150px;
 }
 
 .contactp {
