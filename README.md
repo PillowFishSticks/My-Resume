@@ -24,7 +24,7 @@
     - [Languages](#languages)
 
 5. [Testing](#testing)
-    - [See seperate [TESTING.md](https://github.com/PillowFishSticks/My-Resume/blob/master/TESTING.md) file.
+    - See seperate [TESTING.md](https://github.com/PillowFishSticks/My-Resume/blob/master/TESTING.md) file.
 
 6. [Deployment](#deployment)
  
@@ -116,9 +116,20 @@ The resume website was made to display education, work experience, and projects,
 
 These wireframes were created using [Balsamiq](https://balsamiq.com/) during the design and planning process for this project. 
 
+* Home Page
+
 ![Home page](/assets/img/wireframes/wireframe-home.png)
+
+* Resume Page
+
 ![Resume page](/assets/img/wireframes/wireframe-resume.png)
+
+* Project Page
+
 ![Project page](/assets/img/wireframes/wireframe-project.png)
+
+* Contact Page
+
 ![Contact page](/assets/img/wireframes/wireframe-contact.png)
 
 # Features
@@ -259,5 +270,5 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 ## Acknowledgements
 
- - Special thanks to my mentor [Name](githubprofile) for his time, and guidance with this project. 
+ - Special thanks to my mentor [Precious] for his time, and guidance with this project. 
  - Code Institute tutors for helping support and guide me in the right direction with my code.
