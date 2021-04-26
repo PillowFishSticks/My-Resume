@@ -225,7 +225,7 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 16%;
+    margin-left: 18%;
 }
 
 .languagesecond {
@@ -238,7 +238,7 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 16%;
+    margin-left: 18%;
 }
 
 .languagethird {  
@@ -251,27 +251,26 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 16%;
+    margin-left: 18%;
     font-family: "exo", sans-serif;
 }
 
 .myeducation, .myexperience {
-    padding-left: 70px;
-    margin-top: 80px;
-    width: 90%;
+    margin: 100px;
+    width: 80%;
 }
 
 .myeducation h1 h2 {
     font-family: "roboto", sans-serif;
     color:white;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .myeducation h2 {
     margin-top: 60px;
 }
 
-.myeducation p li {
+.myeducation p {
     margin-top: 10px;
     font-family: "exo", sans-serif;
     color:white;
@@ -292,7 +291,7 @@ h2 {
     margin-top: 60px;
 }
 
-.myexperience p li {
+.myexperience p {
     margin-top: 10px;
     font-family: "exo", sans-serif;
     color:white;
@@ -314,7 +313,7 @@ h2 {
 .projecthero {
     margin-top: 60px;
     margin-bottom: 80px;
-    margin-left: 100px;
+    margin-left: 50px;
     height:300px;
     width: 500px;
 }
@@ -343,6 +342,7 @@ h2 {
 
 .projectinfo {
     margin-top: 60px;
+    margin-right: 50px;
 }
 
 .projecth {
@@ -368,31 +368,31 @@ h2 {
 .resumebtn {
     background-color: #FF1493;
     display: inline-block;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border-radius: 16px;
 }
 
 .projectbtn {
     background-color: #32CD32;
     display: inline-block;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height:40px;
     border-radius: 16px;
 }
 
 .cafebtn {
     background-color: #40CCFF;
     display: inline-block;
-    width: 100px;
-    height: 30px;
+    width: 120px;
+    height: 40px;
     border-radius: 16px;
 }
 
 .project p {
     font-family: "exo", sans-serif;
     color: white;
-    font-size: 11px;
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     margin-top: 7px;
@@ -539,7 +539,6 @@ footer a {
     width: 30%;
     margin-top: 60px;
     margin-bottom: 40px;
-    margin-left: 35%;
     background-color: #32CD32;
     border-radius: 5px;
     
@@ -550,8 +549,72 @@ footer a {
    font-family: "roboto", sans-serif;
    text-transform: uppercase;
    letter-spacing:1px; 
-   margin-left: 80px;
    margin-top: 15px;
+}
+
+.downloadcv p {
+   color: #f4f4f4;
+   font-family: "roboto", sans-serif;
+   text-transform: uppercase;
+   letter-spacing:1px; 
+   margin-left: 130px;
+   margin-top: 15px;
+}
+
+.languages h1 {
+    color: #f4f4f4;
+    font-size: 40px;
+    font-family: "roboto", sans-serif;
+    letter-spacing:1px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 400px;
+}
+
+.languagefirst {
+    background-color: #FF1493;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 22%;
+}
+
+.languagesecond {
+    background-color: #32CD32;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 22%;
+}
+
+.languagethird {  
+    background-color: #40CCFF;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 22%;
+    font-family: "exo", sans-serif;
+}
+
+.myeducation, .myexperience {
+    margin-top: 80px;
+    margin-right: 100px;
+    width: 80%;
 }
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
@@ -569,10 +632,26 @@ footer a {
 .languages h1 {
     margin-left: 330px;
 }
+
+.resumebtn {
+    margin-bottom: 30px;
+}
+
+.projectbtn {
+    margin-bottom: 30px;
+}
+
+.cafebtn {
+    margin-bottom: 30px;
+}
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
 .downloadcv {
   margin-left: 370px;
+}
+
+.contactheader {
+    margin-top: 180px;
 }
 /*--------------------------------------------Contact page*/
 }
@@ -1048,10 +1127,201 @@ textarea.form-control{
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
 
-.smallscreen {
-    margin-top: 30%;
+/*--------------------------------------------Homepage*/
+.hero img {
+    margin-top: 40px;
+    margin-left: 25px;
+    height: 250px;
+    width: 250px;
 }
 
+.menu p {
+    font-family: "roboto", sans-serif;
+    color: white;
+    font-size: 15px;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menuskill {
+    background-color: #FF1493;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.menuwork {
+    background-color: #32CD32;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+.menucontact {
+    background-color: #40CCFF;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 0;
+}
+
+.aboutme {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 16px;
+}
+/*--------------------------------------------Homepage*/
+/*--------------------------------------------Resume page*/
+.downloadcv {
+    width: 40%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-left: 30%;
+    background-color: #32CD32;
+    border-radius: 5px;
+    
+}
+
+.downloadcv p {
+   color: #f4f4f4;
+   font-family: "roboto", sans-serif;
+   text-transform: uppercase;
+   letter-spacing:1px; 
+   margin-left: 0;
+   margin-top: 15px;
+}
+
+.languages h1 {
+    margin-left: 60px;
+    font-size: 30px;
+}
+
+.myexperience p {
+    font-size: 16px;
+}
+
+.myeducation p {
+    font-size: 16px;
+}
+
+.myeducation, .myexperience {
+    padding-left: 50px;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.languagefirst {
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.languagesecond {
+    font-size: 16px;
+    margin-left: 70px;
+}
+
+.languagethird {  
+    font-size: 16px;
+    margin-left: 70px;
+}
+/*--------------------------------------------Resume page*/
+/*--------------------------------------------My Projects*/
+.projecthero {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height:150px;
+    width: 250px;
+    margin-left: 0;
+}
+
+.projectinfo {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.projecth {
+    font-family: "roboto", sans-serif;
+    color: white;
+    text-align: center;
+    display: inline;
+}
+
+.myproject {
+    margin-top: 10px;
+    font-family: "exo", sans-serif;
+    color:white;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.project-text {
+    text-align: justify;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.resumebtn {
+    background-color: #FF1493;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+.projectbtn {
+    background-color: #32CD32;
+    display: inline-block;
+    width: 120px;
+    height:40px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+.cafebtn {
+    background-color: #40CCFF;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+.project p {
+    font-family: "exo", sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 7px;
+}
+/*--------------------------------------------My Projects*/
+/*--------------------------------------------Contact page*/
+
+.contactheader {
+	font-family: "roboto", sans-serif;
+	text-transform: uppercase;
+    letter-spacing:1px;
+    margin-top: 130px;
+}	
+/*--------------------------------------------Contact page*/
+/*--------------------------------------------Footer*/
+.footer {
+    width: 90%;
+}
+/*--------------------------------------------Footer*/
 }
 
 
