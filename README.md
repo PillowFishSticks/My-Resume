@@ -246,12 +246,19 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 ## GitHub Deployment
 
-- I've deployed the site using GitHub Pages, and is available here: 
-- For this project, local deployment was not required.
+This project is hosted in GitHub pages
+
+1. On the menu on the top of the project's repository on GitHub select **Settings.** 
+2. Scroll down to the GitHub **Pages** section. 
+3. Inside that section, click on the drop down menu under **Source** and select **Master Branch**. 
+4. The page refreshes auttomatically and the website is now deployed. 
+5. The link to the webpage is in the GitHub **Pages** section down below. 
+
+## To run the project locally 
 
 # Credits
 
-### Images
+## Images
 - Project images were taken from Code Institutes mini projects that we had to complete.
 - The profile image was taken from my personal collection of photos. 
 
