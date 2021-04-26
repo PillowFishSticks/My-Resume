@@ -41,13 +41,18 @@ The warning was ignored following design decisions.
 ## Testing User stories 
 
 * To be able to easily find the information I am looking for, the layout needs to make sense so that I am not put off. 
+    * The navbar offers easy navigation for the user and is clearly labeled. 
+    * The website is easy to navigate with all content labeled clearly indicating its purpose. 
+
 
 * The site to be laid out in a way that is easy to navigate, so that I can find what I need. 
+    * The navbar offers easy naviigation for the user and is clearly labeled.  
 
 * The site to be responsive and navigable for various device sizes; desktop, tablet, and phone. For the content to look good on all of the devices.
+    * The user can load the website on mobile, tablet, and desktop devices. 
 
 * To learn more about the site owner.
-    * The user can find out more about the site owner on the Home Page under the 
+    * The user can find out more about the site owner on the **Home Page** under the 
     * The user can download the site owners cv on the **Resume Page** at the bottom via the Download CV button. 
 
 
