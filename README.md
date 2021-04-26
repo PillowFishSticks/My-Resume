@@ -24,8 +24,7 @@
     - [Languages](#languages)
 
 5. [Testing](#testing)
-    - [Test Matrix](#test-matrix)
-    - [Compatability](#compatability)
+    - [See seperate [TESTING.md](https://github.com/PillowFishSticks/My-Resume/blob/master/TESTING.md) file.
 
 6. [Deployment](#deployment)
  
@@ -229,29 +228,8 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 - This project uses HTML, CSS, and JavaScript programming languages.
 
 # Testing 
-
-## Test Matrix
-
-- HTML Validation: No errors found.
-- CSS Validation: No errors found.
-
-## Compatability
-To ensure a broad range of users can successfully use this site, I tested it across the 3 major browsers in both desktop and mobile configuration.
-
-- Chrome v.89
-- Firefox v.87
-- Safari v.14
-
-The responsive design mode was used in all browsers to examine the site at various screen sizes on the following devices:
-
-- Desktop view
-- iPad Pro
-- iPad
-- iPhone 6/7/8 plus
-- iPhone 6/7/8
-- Pixel 2
-- Pixel 2 XL
-- Galaxy S5
+ 
+- See seperate [TESTING.md](https://github.com/PillowFishSticks/My-Resume/blob/master/TESTING.md) file. 
 
 # Deployment
 
