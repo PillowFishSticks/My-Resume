@@ -12,21 +12,26 @@
 
 ![resume validator](/readme-files/resume-validator.png)
 
-* Home Page
+* Project Page
 
 ![Project validator](/readme-files/project-validator.png)
 
-* Home Page
+* Contact Page
 
 ![Contact validator](/readme-files/contact-validator.png)
 
 [CSS validator](https://jigsaw.w3.org/css-validator/validator)
 
-[css validator](/readme-files/css-validator.png)
+![css validator](/readme-files/css-validator.png)
 
 ## Responsiveness
 
+![Devices](/readme-file/devices.png)
+![Responsiveness](/readme-file/responsiveness.png)
+
 ## Browser compatibility 
+
+![Browser compatibility](/readme-files/browser-compatibiliity.png)
 
 ## Testing User storiees 
 
