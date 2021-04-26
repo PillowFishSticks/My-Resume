@@ -21,7 +21,7 @@
 ![Contact validator](/readme-files/contact-validator.png)
 
 Notes:
-The warning was ignored followiing design decsions. 
+The warning was ignored following design decisions. 
 
 [CSS validator](https://jigsaw.w3.org/css-validator/validator)
 
@@ -70,3 +70,14 @@ The warning was ignored followiing design decsions.
 
 * The screen size for iPhone 5/SE was not responsive. 
   * This was solved by adding in a media query with a min-width of 320px and max-width of 568px. All content was then styled accordingly. 
+
+* The navbar was not fixed after applyng the class top-nav.
+  * This was solved by adding the fixed-top class to the nav element. 
+
+* The hamburger icon and drop down menu were not displaying. 
+  * This was solved by removing Bootstap 5 and using Bootstrap 4.6.0 instead. 
+
+* The Project Page for moble view was showiing skewed margins for each paragraph of text. 
+  * This was solved by using Chrome DevTools which highlighted a div missing a closing bracket, which was then added. 
+
+Go back to [README.md](https://github.com/PillowFishSticks/My-Resume/blob/master/README.md)
