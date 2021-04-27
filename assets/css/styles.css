@@ -225,7 +225,7 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 18%;
+    margin-left: 22%;
 }
 
 .languagesecond {
@@ -238,7 +238,7 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 18%;
+    margin-left: 22%;
 }
 
 .languagethird {  
@@ -251,12 +251,13 @@ h2 {
     color: #fff;
     text-align: center;
     margin-top: 40px;
-    margin-left: 18%;
+    margin-left: 22%;
     font-family: "exo", sans-serif;
 }
 
 .myeducation, .myexperience {
-    margin: 100px;
+    margin-top: 80px;
+    margin-left: 80px;
     width: 80%;
 }
 
@@ -305,7 +306,7 @@ h2 {
 .projectheader {
     font-family: "roboto", sans-serif;
     color:white;
-    padding-top: 40px;
+    margin-top: 160px;
     padding-bottom: 40px;
     text-align: center;
 }
@@ -490,16 +491,16 @@ footer a {
 .menu p {
     font-family: "roboto", sans-serif;
     color: white;
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 18px;
+    margin-top: 50px;
     text-align: center;
     text-decoration: none;
 }
 
 .menuskill {
     background-color: #FF1493;
-    height: 130px;
-    width: 130px;
+    height: 135px;
+    width: 135px;
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
@@ -508,8 +509,8 @@ footer a {
 
 .menuwork {
     background-color: #32CD32;
-    height: 130px;
-    width: 130px;
+    height: 135px;
+    width: 135px;
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
@@ -518,8 +519,8 @@ footer a {
 
 .menucontact {
     background-color: #40CCFF;
-    height: 130px;
-    width: 130px;
+    height: 135px;
+    width: 135px;
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
@@ -686,7 +687,7 @@ footer a {
 /*--------------------------------------------Navbar*/
 /*--------------------------------------------Homepage*/
 .hero img {
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 150px;
     height: 350px;
     width: 350px;
@@ -756,6 +757,7 @@ footer a {
 
 .languages h1 {
     margin-left: 230px;
+    margin-top: 70px;
 }
 
 .languagefirst {
@@ -803,6 +805,10 @@ footer a {
 }
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
+.projectheader {
+    margin-top: 120px;
+}
+
 .projecthero {
     margin-top: 50px;
     margin-bottom: 40px;
@@ -951,7 +957,7 @@ footer a {
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
-    margin-left: 30%;
+    margin-left: 100px;
     margin-bottom: 20px;
 }
 
@@ -962,7 +968,7 @@ footer a {
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
-    margin-left: 30%;
+    margin-left: 100px;
     margin-bottom: 20px;
 }
 
@@ -973,7 +979,7 @@ footer a {
     border-radius: 50%;
     display: inline-block;
     margin-top: 90px;
-    margin-left: 30%;
+    margin-left: 100px;
     margin-bottom: 20px;
 }
 
@@ -1051,8 +1057,12 @@ base {
 }
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
+.projectheader {
+    margin-top: 120px;
+}
+
 .projecthero {
-    margin-left: 30px;
+    margin-right: 40px;
     margin-bottom: 10px; 
     height:200px;
     width: 370px;
@@ -1157,7 +1167,7 @@ textarea.form-control{
 
 /*--------------------------------------------Homepage*/
 .hero img {
-    margin-top: 40px;
+    margin-top: 60px;
     margin-left: 25px;
     height: 250px;
     width: 250px;
@@ -1244,7 +1254,7 @@ textarea.form-control{
 }
 
 .myeducation, .myexperience {
-    padding-left: 50px;
+    padding-left: 15px;
     margin-top: 40px;
     width: 90%;
 }
@@ -1266,49 +1276,21 @@ textarea.form-control{
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
 .projectheader {
-    font-family: "roboto", sans-serif;
-    color:white;
-    padding-top: 160px;
-    padding-bottom: 40px;
-    text-align: center;
+    margin-top: 120px;
 }
 
 .projecthero {
-    margin-top: 40px;
-    margin-bottom: 20px;
     margin-left: 0;
-    height: 170px;
+    margin-bottom: 10px; 
+    height:170px;
     width: 250px;
 }
 
-.projectfirst{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style:solid;
-    border-bottom-style: solid;
-    border-color: white;
-}
-
-.projectsecond{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style:solid;
-    border-bottom-style: solid;
-    border-color: white;
-}
-
-.projectthird {
-    margin-left: 10px;
-    margin-right: 10px;
-    border-top-style:solid;
-    border-bottom-style: solid;
-    border-color: white;
-}
-
 .projectinfo {
-    margin-top: 60px;
-    margin-left: 30px;
- 
+    margin-top: 10px;
+    margin-left: 0; 
+    margin-right: auto;
+    text-align: center;
 }
 
 .projecth {
@@ -1316,6 +1298,7 @@ textarea.form-control{
     color: white;
     text-align: center;
     display: inline;
+    margin-top: 0;
 }
 
 .myproject {
@@ -1328,39 +1311,22 @@ textarea.form-control{
 
 .project-text {
     text-align: justify;
+    margin-bottom: 30px;
 }
 
 .resumebtn {
-    background-color: #FF1493;
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    border-radius: 16px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .projectbtn {
-    background-color: #32CD32;
-    display: inline-block;
-    width: 120px;
-    height:40px;
-    border-radius: 16px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .cafebtn {
-    background-color: #40CCFF;
-    display: inline-block;
-    width: 120px;
-    height: 40px;
-    border-radius: 16px;
-}
-
-.project p {
-    font-family: "exo", sans-serif;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 7px;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
