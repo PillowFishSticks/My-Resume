@@ -871,7 +871,7 @@ footer a {
 }
 
 /** Extra small devices only **/
-@media (max-width: 767px) {
+@media (min-width: 375px) and (max-width: 667px) {
 
 .smallscreen {
     margin-top: 30%;
@@ -956,7 +956,7 @@ footer a {
     width: 120px;
     border-radius: 50%;
     display: inline-block;
-    margin-left: auto;
+    margin-left: 50%;
     margin-bottom: 20px;
 }
 
@@ -966,7 +966,7 @@ footer a {
     width: 120px;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 120px;
+    margin-left: 50%;
     margin-bottom: 20px;
 }
 
@@ -976,7 +976,7 @@ footer a {
     width: 120px;
     border-radius: 50%;
     display: inline-block;
-    margin-left: 120px;
+    margin-left: 50%;
     margin-bottom: 20px;
 }
 
@@ -999,6 +999,11 @@ base {
     padding-top: 30px;
     padding-bottom: 10px;
 }
+
+div.col .menu {
+    margin-left: 115px;
+}
+
 /*--------------------------------------------Homepage*/
 /*--------------------------------------------Resume page*/
 .downloadcv {
@@ -1021,7 +1026,7 @@ base {
 }
 
 .languages h1 {
-    margin-left: 130px;
+    margin: 60px;
     font-size: 30px;
 }
 
@@ -1052,6 +1057,22 @@ base {
     font-size: 16px;
     margin-left: 170px;
 }
+
+div.row .languages {
+    margin-left: 30px;
+}
+
+div.col .languagefirst {
+    margin-left: 100px;
+}
+
+div.col .languagesecond {
+    margin-left: 100px;
+}
+
+div.col .languagethird {
+    margin-left: 100px;
+}
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
 .projectheader {
@@ -1059,7 +1080,7 @@ base {
 }
 
 .projecthero {
-    margin-right: 40px;
+    margin-left: 40px;
     margin-bottom: 10px; 
     height:200px;
     width: 370px;
@@ -1105,6 +1126,18 @@ base {
 .cafebtn {
     margin-bottom: 20px;
     margin-left: 10px;
+}
+
+.projectfirst div.col img {
+    margin-left: 20px;
+}
+
+.projectsecond div.col img {
+    margin-left: 20px;
+}
+
+.projectthird div.col img {
+    margin-left: 20px;
 }
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
