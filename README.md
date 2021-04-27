@@ -197,7 +197,7 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 ### Project Page
 
-![Projects page](/assets/img/resume-website/projects.png)
+![Projects page](/assets/img/resume-website/project.png)
 
 - Includes three different projects completed by the site owner, 'Resume', 'Love Running', and 'Coders Coffeehouse'. 
 - Each project includes an image of the project and a brief description of the project.  
@@ -286,5 +286,5 @@ To clone this project from GitHub
 
 ## Acknowledgements
 
- - Special thanks to my mentor [Precious] for his time, and guidance with this project. 
+ - Special thanks to my mentor Precious, for his time, and guidance with this project. 
  - Code Institute tutors for helping support and guide me in the right direction with my code.
