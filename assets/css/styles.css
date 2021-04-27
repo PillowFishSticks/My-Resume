@@ -1052,13 +1052,15 @@ base {
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
 .projecthero {
-    margin: 25px;
+    margin-left: 30px;
+    margin-bottom: 10px; 
     height:200px;
     width: 370px;
 }
 
 .projectinfo {
     margin-top: 10px;
+    margin-left: 70px; 
     text-align: center;
 }
 
@@ -1067,6 +1069,7 @@ base {
     color: white;
     text-align: center;
     display: inline;
+    margin-top: 0;
 }
 
 .myproject {
@@ -1084,14 +1087,17 @@ base {
 
 .resumebtn {
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .projectbtn {
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 
 .cafebtn {
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 /*--------------------------------------------My Projects*/
 /*--------------------------------------------Contact page*/
@@ -1259,17 +1265,50 @@ textarea.form-control{
 }
 /*--------------------------------------------Resume page*/
 /*--------------------------------------------My Projects*/
+.projectheader {
+    font-family: "roboto", sans-serif;
+    color:white;
+    padding-top: 160px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
 .projecthero {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    height:150px;
-    width: 250px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     margin-left: 0;
+    height: 170px;
+    width: 250px;
+}
+
+.projectfirst{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+.projectsecond{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-color: white;
+}
+
+.projectthird {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top-style:solid;
+    border-bottom-style: solid;
+    border-color: white;
 }
 
 .projectinfo {
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 60px;
+    margin-left: 30px;
+ 
 }
 
 .projecth {
@@ -1289,9 +1328,6 @@ textarea.form-control{
 
 .project-text {
     text-align: justify;
-    margin-bottom: 50px;
-    margin-left: 5px;
-    margin-right: 5px;
 }
 
 .resumebtn {
@@ -1300,7 +1336,6 @@ textarea.form-control{
     width: 120px;
     height: 40px;
     border-radius: 16px;
-    margin-top: 10px;
 }
 
 .projectbtn {
@@ -1309,7 +1344,6 @@ textarea.form-control{
     width: 120px;
     height:40px;
     border-radius: 16px;
-    margin-top: 10px;
 }
 
 .cafebtn {
@@ -1318,7 +1352,6 @@ textarea.form-control{
     width: 120px;
     height: 40px;
     border-radius: 16px;
-    margin-top: 10px;
 }
 
 .project p {
