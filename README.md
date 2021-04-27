@@ -51,7 +51,7 @@ The target audience for the resume website are:
 User goals are:
 - To see educational qualifications of a potential employee. 
 - To see work experience and knowledge of the profession.
-- To view previous project coompleted.
+- To view previous project completed.
 - To recruit or employ the candidate, if they meet all the criteria.
 
 ### Site Owner Goals
@@ -99,7 +99,7 @@ The resume website was made to display education, work experience, and projects,
 - Very few icons were used, as to avoid overcrowding. 
 - The **envelope** icon was placed next to the site owners email address to make it stand out, and to make it's purpose clear when doing a quick glance.
 - The **phone** icon was placed next to the site owners phone number to make it standout, and to make it's purpose clear when doing a quick glance. 
-- The **Facebook logo** icon, **Instagram logo** icon, **LinkedIn logo** icon, and **GitHub logo** icon are included in the footer to lead visitors to the site owners social meedia accounts.
+- The **Facebook logo** icon, **Instagram logo** icon, **LinkedIn logo** icon, and **GitHub logo** icon are included in the footer to lead visitors to the site owners social media accounts.
 
 ### Colours
 - bright pink: #FF1493
@@ -141,7 +141,7 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 #### Navbar
 - The navbar features on every page. 
 
-- The navigation bar features the site owner name 'Mark Percy'on the far left, and website pages on the far right which include Home, Resume, Projects, and Contact. 
+- The navigation bar features the site owners name 'Mark Percy' on the far left, and website pages on the far right which include Home, Resume, Projects, and Contact. 
 
 - **In desktop view** on the left side of the navbar is the name of the site owner 'Mark Percy'
 
@@ -156,7 +156,7 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 - The footer features the site owners email address, phone number, and links to social media accounts. 
 
-- The footer features links to the site owners social media accounts for Facebook, Instagram, LinkeedIn, and GitHub. 
+- The footer features links to the site owners social media accounts for Facebook, Instagram, LinkedIn, and GitHub. 
 
 - The content is displayed in white, when the user hovers over a link, the text turns black and the background turns white.
 
@@ -166,15 +166,15 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 **Introdcution**
 - Below the navbar is a circular profile picture and next to that is a description of the site owner. 
-- Below the description are threee buttons 'My Skills', 'My Work', and 'My Contact'.
-- 'My Skills' take you to the Resume page. 
-- 'My Work' take you to the Projects page.
+- Below the description are three buttons 'My Skills', 'My Work', and 'My Contact'.
+- 'My Skills' takes you to the Resume page. 
+- 'My Work' takes you to the Projects page.
 - 'My Contact' takes you to the Contact page. 
 
 
 **Three reasons to hire**
-- Below the three buttons aree three blocks containing 'Skills', 'Best Practice', and 'Experience'. 
-- 'Skills' includes the diffrent languages the site owner is proficient in. 
+- Below the three buttons are three blocks containing 'Skills', 'Best Practice', and 'Experience'. 
+- 'Skills' includes the different languages the site owner is proficient in. 
 - 'Best practice' includes coding best practices by the site owner.
 - 'Experience' provides a very brief summary of the site owners work experience. 
 
@@ -183,10 +183,10 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 ![Resume page](/assets/img/resume-website/resume.png)
 
 **My languages**
-- This section includeslanguages and frameworks that the site owner is proficient in, including HTML/CSS, Java/jQuery/ Python/Django. 
+- This section includes languages and frameworks that the site owner is proficient in, including HTML/CSS, Java/jQuery/ Python/Django. 
 
 **Education**
-- This section gives the educational background of the sitte owner. 
+- This section gives the educational background of the site owner. 
 - It includes three different insertions of different content studied at different universities. 
 - All information is displayed in a column alongside experience. 
 
@@ -219,7 +219,7 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
     - Once more projects have been completed, adding those to the Projects page.
     - Each project having a link to the live project. 
 3. **Review page for clients to add reviews**
-    - A review page that allows previous clients to add review about the work done for them and how satified they are with the final product. 
+    - A review page that allows previous clients to add review about the work done for them and how satisfied they are with the final product. 
     - Possibly a star rating. 
 
 # Technologies Used

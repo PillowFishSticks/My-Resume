@@ -952,34 +952,31 @@ footer a {
 
 .menuskill {
     background-color: #FF1493;
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: inline-block;
-    margin-top: 90px;
-    margin-left: 100px;
+    margin-left: auto;
     margin-bottom: 20px;
 }
 
 .menuwork {
     background-color: #32CD32;
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: inline-block;
-    margin-top: 90px;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-bottom: 20px;
 }
 
 .menucontact {
     background-color: #40CCFF;
-    height: 90px;
-    width: 90px;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     display: inline-block;
-    margin-top: 90px;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-bottom: 20px;
 }
 

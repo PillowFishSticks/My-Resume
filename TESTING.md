@@ -46,13 +46,13 @@ The warning was ignored following design decisions.
 
 
 * The site to be laid out in a way that is easy to navigate, so that I can find what I need. 
-    * The navbar offers easy naviigation for the user and is clearly labeled.  
+    * The navbar offers easy navigation for the user and is clearly labeled.  
 
 * The site to be responsive and navigable for various device sizes; desktop, tablet, and phone. For the content to look good on all of the devices.
     * The user can load the website on mobile, tablet, and desktop devices. 
 
 * To learn more about the site owner.
-    * The user can find out more about the site owner on the **Home Page** under the 
+    * The user can find out more about the site owner on the **Home Page**.
     * The user can download the site owners cv on the **Resume Page** at the bottom via the Download CV button. 
 
 
@@ -61,7 +61,7 @@ The warning was ignored following design decisions.
     * Alternatively, the user can download the site owners cv on the **Resume Page** at the bottom via the Download CV button. 
 
 * To be able to view the site owners previous job experience. 
-    * The user can find previous job experience of **Resume Page** under Experience. 
+    * The user can find previous job experience on the **Resume Page** under Experience. 
     * Alternatively, the user can download the site owners cv on the **Resume Page** at the bottom via the Download CV button. 
 
 * To be able to download the site owners cv, to share and keep for future use. 
@@ -81,8 +81,8 @@ The warning was ignored following design decisions.
 
 ## Bugs
 
-* The comments inside the HTML files were all written with CSS comment format, this was discovered when runniing the HTML code through the validator. 
-    * This was solved by using the correct HTML comment. format. 
+* The comments inside the HTML files were all written with CSS comment format, this was discovered when running the HTML code through the validator. 
+    * This was solved by using the correct HTML comment format. 
 
 * "The element a must not appear as a descendant of the button element" was the error message recieved when running the HTML code through the valiidator. 
     * The buttons were changed to a tags with an href inside them and styled accordingly. 
@@ -96,7 +96,7 @@ The warning was ignored following design decisions.
 * The hamburger icon and drop down menu were not displaying. 
     * This was solved by removing Bootstap 5 and using Bootstrap 4.6.0 instead. 
 
-* The Project Page for mobile view was showiing skewed margins for each paragraph of text. 
+* The Project Page for mobile view was showing skewed margins for each paragraph of text. 
     * This was solved by using Chrome DevTools which highlighted a div missing a closing bracket, which was then added. 
 
 Go back to [README.md](https://github.com/PillowFishSticks/My-Resume/blob/master/README.md)
