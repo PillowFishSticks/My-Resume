@@ -118,19 +118,19 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 * Home Page
 
-![Home page](/assets/img/wireframes/wireframe-home.png)
+![Home page](/wireframes/wireframe-home.png)
 
 * Resume Page
 
-![Resume page](/assets/img/wireframes/wireframe-resume.png)
+![Resume page](/wireframes/wireframe-resume.png)
 
 * Project Page
 
-![Project page](/assets/img/wireframes/wireframe-project.png)
+![Project page](/wireframes/wireframe-project.png)
 
 * Contact Page
 
-![Contact page](/assets/img/wireframes/wireframe-contact.png)
+![Contact page](/wireframes/wireframe-contact.png)
 
 # Features
  
