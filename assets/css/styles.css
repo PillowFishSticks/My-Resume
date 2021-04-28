@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Navbar*/
+
  html, body {
     height: 100%;
     width: 100%;
@@ -52,7 +53,9 @@
 }
 
 /*--------------------------------------------Navbar*/
+
 /*--------------------------------------------Homepage*/
+
 .hero img {
     margin-top: 100px;
     margin-left: 50px;
@@ -181,7 +184,9 @@ h2 {
 }
 
 /*--------------------------------------------Homepage*/
+
 /*--------------------------------------------Resume page*/
+
 .downloadcv {
     width: 30%;
     margin-top: 60px;
@@ -302,7 +307,9 @@ h2 {
 }
 
 /*--------------------------------------------Resume page*/
+
 /*--------------------------------------------My Projects*/
+
 .projectheader {
     font-family: "roboto", sans-serif;
     color:white;
@@ -398,8 +405,11 @@ h2 {
     text-decoration: none;
     margin-top: 7px;
 }
+
 /*--------------------------------------------My Projects*/
+
 /*--------------------------------------------Contact page*/
+
 .contactpage {
 	width:100%;
 	font-family: "roboto", sans-serif;
@@ -440,8 +450,11 @@ textarea.form-control{
     color: #f4f4f4;
     background-color: #32CD32;
 }
+
 /*--------------------------------------------Contact page*/
+
 /*--------------------------------------------Footer*/
+
 .email {
     float:left;
 }
@@ -457,922 +470,982 @@ footer a {
 .emailadress {
     float: left;
 }
+
 /*--------------------------------------------Footer*/
 
 /** Large devices only **/
+
 @media (min-width: 1200px) {
     
-.smallscreen {
-    margin-top: 10%;
-}
-.active {
-    border-bottom: 1px solid #32cd32;
-}
-}
+    .smallscreen {
+        margin-top: 10%;
+    }
+
+    .active {
+        border-bottom: 1px solid #32cd32;
+    }
+    }
 
 /** Medium devices only **/
+
 @media (min-width: 992px) and (max-width: 1199px) {
+
 /*--------------------------------------------Navbar*/
-.active {
-    border-bottom: 1px solid #32cd32;
-}
+
+    .active {
+        border-bottom: 1px solid #32cd32;
+    }
+
 /*--------------------------------------------Navbar*/
+
 /*--------------------------------------------Homepage*/
-.hero img {
-    margin-top: 160px;
-    height: 350px;
-    width: 350px;
-}
 
-.base {
-    margin-top: 100px;
-}
+    .hero img {
+        margin-top: 160px;
+        height: 350px;
+        width: 350px;
+    }
 
-.menu p {
-    font-family: "roboto", sans-serif;
-    color: white;
-    font-size: 18px;
-    margin-top: 50px;
-    text-align: center;
-    text-decoration: none;
-}
+    .base {
+        margin-top: 100px;
+    }
 
-.menuskill {
-    background-color: #FF1493;
-    height: 135px;
-    width: 135px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 90px;
-    margin-left: 5px;
-}
+    .menu p {
+        font-family: "roboto", sans-serif;
+        color: white;
+        font-size: 18px;
+        margin-top: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
 
-.menuwork {
-    background-color: #32CD32;
-    height: 135px;
-    width: 135px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 90px;
-    margin-left: 5px;
-}
+    .menuskill {
+        background-color: #FF1493;
+        height: 135px;
+        width: 135px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 90px;
+        margin-left: 5px;
+    }   
 
-.menucontact {
-    background-color: #40CCFF;
-    height: 135px;
-    width: 135px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 90px;
-    margin-left: 5px;
-}
+    .menuwork {
+        background-color: #32CD32;
+        height: 135px;
+        width: 135px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 90px;
+        margin-left: 5px;
+    }   
+
+    .menucontact {
+        background-color: #40CCFF;
+        height: 135px;
+        width: 135px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 90px;
+        margin-left: 5px;
+    }
+
 /*--------------------------------------------Home page*/
+
 /*--------------------------------------------Resume page*/
-.downloadcv {
-    width: 30%;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    background-color: #32CD32;
-    border-radius: 5px;
-    
-}
 
-.downloadcv p {
-   color: #f4f4f4;
-   font-family: "roboto", sans-serif;
-   text-transform: uppercase;
-   letter-spacing:1px; 
-   margin-top: 15px;
-}
+    .downloadcv {
+        width: 30%;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        background-color: #32CD32;
+        border-radius: 5px;   
+    }
 
-.downloadcv p {
-   color: #f4f4f4;
-   font-family: "roboto", sans-serif;
-   text-transform: uppercase;
-   letter-spacing:1px; 
-   margin-left: 80px;
-   margin-top: 15px;
-}
+    .downloadcv p {
+        color: #f4f4f4;
+        font-family: "roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing:1px; 
+        margin-top: 15px;
+    }
 
-.languages h1 {
-    color: #f4f4f4;
-    font-size: 40px;
-    font-family: "roboto", sans-serif;
-    letter-spacing:1px;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    margin-left: 400px;
-}
+    .downloadcv p {
+        color: #f4f4f4;
+        font-family: "roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing:1px; 
+        margin-left: 80px;
+        margin-top: 15px;
+    }
 
-.languagefirst {
-    background-color: #FF1493;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 22%;
-}
+    .languages h1 {
+        color: #f4f4f4;
+        font-size: 40px;
+        font-family: "roboto", sans-serif;
+        letter-spacing:1px;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        margin-left: 400px;
+    }
 
-.languagesecond {
-    background-color: #32CD32;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 22%;
-}
+    .languagefirst {
+        background-color: #FF1493;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 22%;
+    }
 
-.languagethird {  
-    background-color: #40CCFF;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 22%;
-    font-family: "exo", sans-serif;
-}
+    .languagesecond {
+        background-color: #32CD32;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 22%;
+    }
 
-.myeducation, .myexperience {
-    margin: 40px;
-    width: 80%;
-}
+    .languagethird {  
+        background-color: #40CCFF;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 22%;
+        font-family: "exo", sans-serif;
+    }
+
+    .myeducation, .myexperience {
+        margin: 40px;
+        width: 80%;
+    }
+
 /*--------------------------------------------Resume page*/
+
 /*--------------------------------------------My Projects*/
-.projecthero {
-    margin-top: 80px;
-    margin-left: 60px;
-    height:250px;
-    width: 350px;
-}
 
-.projecfirst h1 {
-    margin-top: 350px;
-}
+    .projecthero {
+        margin-top: 80px;
+        margin-left: 60px;
+        height:250px;
+        width: 350px;
+    }
 
-.languages h1 {
-    margin-left: 330px;
-}
+    .projecfirst h1 {
+        margin-top: 350px;
+    }
 
-.resumebtn {
-    margin-bottom: 30px;
-}
+    .languages h1 {
+        margin-left: 330px;
+    }
 
-.projectbtn {
-    margin-bottom: 30px;
-}
+    .resumebtn {
+        margin-bottom: 30px;
+    }
 
-.cafebtn {
-    margin-bottom: 30px;
-}
+    .projectbtn {
+        margin-bottom: 30px;
+    }
+
+    .cafebtn {
+        margin-bottom: 30px;
+    }
+
 /*--------------------------------------------My Projects*/
+
 /*--------------------------------------------Contact page*/
-.downloadcv {
-  margin-left: 370px;
-}
 
-.contactheader {
-    margin-top: 180px;
-}
+    .downloadcv {
+    margin-left: 370px;
+    }
+
+    .contactheader {
+        margin-top: 180px;
+    }
+
 /*--------------------------------------------Contact page*/
 }
 
 /** Small devices only **/
+
 @media (min-width: 768px) and (max-width: 991px) {
 
-.smallscreen {
-    margin-top: 10%;
-}
 /*--------------------------------------------Navbar*/
-#myLinks {
-    font-size: 10px;
-    list-style-type: none;
-    letter-spacing: 4px;
-}
 
-#logo, #myLinks {
-    line-height: 75px;
-}
+    #myLinks {
+        font-size: 10px;
+        list-style-type: none;
+        letter-spacing: 4px;
+    }
 
-#myLinks li {
-    float: right;
-    margin-right: 30px;
-}
+    #logo, #myLinks {
+        line-height: 75px;
+    }
 
-#myLinks a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #32cd32;
-    font-family: "roboto", sans-serif;
-}
+    #myLinks li {
+        float: right;
+        margin-right: 30px;
+    }
 
-#myLinks a:hover{
-    border-bottom: 1px solid #32cd32;
-}
+    #myLinks a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #32cd32;
+        font-family: "roboto", sans-serif;
+    }
 
-.main-header {
-    margin-top: 30px;
-}
+    #myLinks a:hover{
+        border-bottom: 1px solid #32cd32;
+    }
+
+    .main-header {
+        margin-top: 30px;
+    }
+
 /*--------------------------------------------Navbar*/
+
 /*--------------------------------------------Homepage*/
-.hero img {
-    margin-top: 80px;
-    margin-left: 150px;
-    height: 350px;
-    width: 350px;
-}
 
-.menu p {
-    font-family: "roboto", sans-serif;
-    color: white;
-    font-size: 20px;
-    margin-top: 60px;
-    text-align: center;
-    text-decoration: none;
-}
+    .hero img {
+        margin-top: 80px;
+        margin-left: 150px;
+        height: 350px;
+        width: 350px;
+    }
 
-.menuskill {
-    background-color: #FF1493;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
+    .menu p {
+        font-family: "roboto", sans-serif;
+        color: white;
+        font-size: 20px;
+        margin-top: 60px;
+        text-align: center;
+        text-decoration: none;
+    }
 
-.menuwork {
-    background-color: #32CD32;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
+    .menuskill {
+        background-color: #FF1493;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
 
-.menucontact {
-    background-color: #40CCFF;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
+    .menuwork {
+        background-color: #32CD32;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .menucontact {
+        background-color: #40CCFF;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
 /*--------------------------------------------Homepage*/
+
 /*--------------------------------------------Resume page*/
-.downloadcv {
-    width: 30%;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: 35%;
-    background-color: #32CD32;
-    border-radius: 5px;
-    
-}
 
-.downloadcv p {
-   color: #f4f4f4;
-   font-family: "roboto", sans-serif;
-   text-transform: uppercase;
-   letter-spacing:1px; 
-   margin-left: 40px;
-   margin-top: 15px;
-}
+    .downloadcv {
+        width: 30%;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        margin-left: 35%;
+        background-color: #32CD32;
+        border-radius: 5px;
+        
+    }
 
-.languages h1 {
-    margin-left: 230px;
-    margin-top: 70px;
-}
+    .downloadcv p {
+        color: #f4f4f4;
+        font-family: "roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing:1px; 
+        margin-left: 40px;
+        margin-top: 15px;
+    }
 
-.languagefirst {
-    background-color: #FF1493;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 10%;
-}
+    .languages h1 {
+        margin-left: 230px;
+        margin-top: 70px;
+    }
 
-.languagesecond {
-    background-color: #32CD32;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 10%;
-}
+    .languagefirst {
+        background-color: #FF1493;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 10%;
+    }
 
-.languagethird {  
-    background-color: #40CCFF;
-    width: 150px;
-    height: 150px;
-    line-height: 150px;
-    border-radius: 50%;
-    font-size: 16px;
-    color: #fff;
-    text-align: center;
-    margin-top: 40px;
-    margin-left: 10%;
-}
+    .languagesecond {
+        background-color: #32CD32;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 10%;
+    }
 
-.myeducation, .myexperience {
-    margin: 40px;
-    width: 80%;
-}
+    .languagethird {  
+        background-color: #40CCFF;
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 50%;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 10%;
+    }
+
+    .myeducation, .myexperience {
+        margin: 40px;
+        width: 80%;
+    }
+
 /*--------------------------------------------Resume page*/
+
 /*--------------------------------------------My Projects*/
-.projectheader {
-    margin-top: 120px;
-}
 
-.projecthero {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    margin-left: 90px;
-    height:300px;
-    width: 500px;
-}
+    .projectheader {
+        margin-top: 120px;
+    }
 
-.projectinfo {
-    margin: 20px;
-    text-align: center;
-}
+    .projecthero {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-left: 90px;
+        height:300px;
+        width: 500px;
+    }
 
-.projecth {
-    font-family: "roboto", sans-serif;
-    color: white;
-    text-align: center;
-    display: inline;
-}
+    .projectinfo {
+        margin: 20px;
+        text-align: center;
+    }
 
-.myproject {
-    margin-top: 10px;
-    font-family: "exo", sans-serif;
-    color:white;
-    padding-top: 10px;
-    font-size: 18px;
-}
+    .projecth {
+        font-family: "roboto", sans-serif;
+        color: white;
+        text-align: center;
+        display: inline;
+    }
 
-.project-text {
-    text-align: justify;
-    margin-bottom: 50px;
-}
+    .myproject {
+        margin-top: 10px;
+        font-family: "exo", sans-serif;
+        color:white;
+        padding-top: 10px;
+        font-size: 18px;
+    }
 
-.resumebtn {
-    margin-bottom: 20px;
-}
+    .project-text {
+        text-align: justify;
+        margin-bottom: 50px;
+    }
 
-.projectbtn {
-    margin-bottom: 20px;
-}
+    .resumebtn {
+        margin-bottom: 20px;
+    }
 
-.cafebtn {
-    margin-bottom: 20px;
-}
+    .projectbtn {
+        margin-bottom: 20px;
+    }
+
+    .cafebtn {
+        margin-bottom: 20px;
+    }
+
 /*--------------------------------------------My Projects*/
-/*--------------------------------------------Contact page*/
-.downloadcv {
-  margin-left: 270px;
-}
 
-.contactheader {
-    margin-top: 150px;
-}
 /*--------------------------------------------Contact page*/
+
+    .downloadcv {
+    margin-left: 270px;
+    }
+
+    .contactheader {
+        margin-top: 150px;
+    }
+
+/*--------------------------------------------Contact page*/
+
 /*--------------------------------------------Footer*/
-.footer {
-    width: 75%;
-}
+
+    .footer {
+        width: 75%;
+    }
+
 /*--------------------------------------------Footer*/
 }
 
 /** Extra small devices only **/
+
 @media (min-width: 375px) and (max-width: 667px) {
 
-.smallscreen {
-    margin-top: 30%;
-}
 /*--------------------------------------------Navbar*/
-.topnav {
-  overflow: hidden;
-  position: relative;
-}
 
-.topnav #menu {
-  display: none;
-}
+    .topnav {
+        overflow: hidden;
+        position: relative;
+    }
 
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 30px;
-  display: block;
-}
+    .topnav #menu {
+        display: none;
+    }
 
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 20px;
-  top: 20px;
-}
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 30px;
+        display: block;
+    }
 
-.main-header {
-    color:white;
-    font-family: "roboto", sans-serif;
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: 25px;
-}
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+    }
 
-#myLinks li {
-    display: block;
-}
+    .main-header {
+        color:white;
+        font-family: "roboto", sans-serif;
+        text-decoration: none;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 25px;
+    }
 
-#myLinks a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #32cd32;
-    font-family: "roboto", sans-serif;
-}
+    #myLinks li {
+        display: block;
+    }
 
-#myLinks a:hover{
-    border-bottom: 1px solid #32cd32;
-}
+    #myLinks a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #32cd32;
+        font-family: "roboto", sans-serif;
+    }
 
-.navbar-collapse {
-   padding-left: 25px;
-   padding-top: 0px; 
-   margin-top: 17px;
-   margin-bottom: 20px;
-   background-color: white;
-}
+    #myLinks a:hover{
+        border-bottom: 1px solid #32cd32;
+    }
+
+    .navbar-collapse {
+        padding-left: 25px;
+        padding-top: 0px; 
+        margin-top: 17px;
+        margin-bottom: 20px;
+        background-color: white;
+    }
+
 /*--------------------------------------------Navbar*/
-/*--------------------------------------------Homepage*/
-.hero img {
-    margin-top: 40px;
-    margin-left: 70px;
-    height: 250px;
-    width: 250px;
-}
-
-.menu p {
-    font-family: "roboto", sans-serif;
-    color: white;
-    font-size: 15px;
-    margin-top: 35px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.menuskill {
-    background-color: #FF1493;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 50%;
-    margin-bottom: 20px;
-}
-
-.menuwork {
-    background-color: #32CD32;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 50%;
-    margin-bottom: 20px;
-}
-
-.menucontact {
-    background-color: #40CCFF;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 50%;
-    margin-bottom: 20px;
-}
-
-base {
-    margin-top: 100px;
-    font-family: "roboto", sans-serif;
-    color:white;
-    padding-top: 60px;
-}
-
-.aboutme {
-    margin-top: 30px;
-    font-family: "exo", sans-serif;
-    color:white;
-    padding-top: 10px;
-    font-size: 16px;
-}
-
-.three-reasons-to-hire {
-    padding-top: 30px;
-    padding-bottom: 10px;
-}
-
-div.col .menu {
-    margin-left: 115px;
-}
 
 /*--------------------------------------------Homepage*/
+
+    .hero img {
+        margin-top: 40px;
+        margin-left: 70px;
+        height: 250px;
+        width: 250px;
+    }
+
+    .menu p {
+        font-family: "roboto", sans-serif;
+        color: white;
+        font-size: 15px;
+        margin-top: 35px;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .menuskill {
+        background-color: #FF1493;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 50%;
+        margin-bottom: 20px;
+    }
+
+    .menuwork {
+        background-color: #32CD32;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 50%;
+        margin-bottom: 20px;
+    }
+
+    .menucontact {
+        background-color: #40CCFF;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 50%;
+        margin-bottom: 20px;
+    }
+
+    .base {
+        margin-top: 100px;
+        font-family: "roboto", sans-serif;
+        color:white;
+        padding-top: 60px;
+    }
+
+    .aboutme {
+        margin-top: 30px;
+        font-family: "exo", sans-serif;
+        color:white;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
+    .three-reasons-to-hire {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    div.col .menu {
+        margin-left: 115px;
+    }
+
+/*--------------------------------------------Homepage*/
+
 /*--------------------------------------------Resume page*/
-.downloadcv {
-    width: 30%;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    margin-left: 35%;
-    background-color: #32CD32;
-    border-radius: 5px;
-    
-}
 
-.downloadcv p {
-   color: #f4f4f4;
-   font-family: "roboto", sans-serif;
-   text-transform: uppercase;
-   letter-spacing:1px; 
-   margin-left: 0;
-   margin-top: 15px;
-}
+    .downloadcv {
+        width: 30%;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        margin-left: 35%;
+        background-color: #32CD32;
+        border-radius: 5px;
+        
+    }
 
-.languages h1 {
-    margin: 60px;
-    font-size: 30px;
-}
+    .downloadcv p {
+        color: #f4f4f4;
+        font-family: "roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing:1px; 
+        margin-left: 0;
+        margin-top: 15px;
+    }
 
-.myexperience p {
-    font-size: 16px;
-}
+    .languages h1 {
+        margin: 60px;
+        font-size: 30px;
+    }
 
-.myeducation p {
-    font-size: 16px;
-}
+    .myexperience p {
+        font-size: 16px;
+    }
 
-.myeducation, .myexperience {
-    margin: 20px;
-    width: 90%;
-}
+    .myeducation p {
+        font-size: 16px;
+    }
 
-.languagefirst {
-    font-size: 16px;
-    margin-left: 170px;
-}
+    .myeducation, .myexperience {
+        margin: 20px;
+        width: 90%;
+    }
 
-.languagesecond {
-    font-size: 16px;
-    margin-left: 170px;
-}
+    .languagefirst {
+        font-size: 16px;
+        margin-left: 170px;
+    }
 
-.languagethird {  
-    font-size: 16px;
-    margin-left: 170px;
-}
+    .languagesecond {
+        font-size: 16px;
+        margin-left: 170px;
+    }
 
-div.row .languages {
-    margin-left: 30px;
-}
+    .languagethird {  
+        font-size: 16px;
+        margin-left: 170px;
+    }
 
-div.col .languagefirst {
-    margin-left: 100px;
-}
+    div.row .languages {
+        margin-left: 30px;
+    }
 
-div.col .languagesecond {
-    margin-left: 100px;
-}
+    div.col .languagefirst {
+        margin-left: 100px;
+    }
 
-div.col .languagethird {
-    margin-left: 100px;
-}
+    div.col .languagesecond {
+        margin-left: 100px;
+    }
+
+    div.col .languagethird {
+        margin-left: 100px;
+    }
+
 /*--------------------------------------------Resume page*/
+
 /*--------------------------------------------My Projects*/
-.projectheader {
-    margin-top: 120px;
-}
 
-.projecthero {
-    margin-left: 40px;
-    margin-bottom: 10px; 
-    height:200px;
-    width: 370px;
-}
+    .projectheader {
+        margin-top: 120px;
+    }
 
-.projectinfo {
-    margin-top: 10px;
-    margin-left: 70px; 
-    text-align: center;
-}
+    .projecthero {
+        margin-left: 40px;
+        margin-bottom: 10px; 
+        height:200px;
+        width: 370px;
+    }
 
-.projecth {
-    font-family: "roboto", sans-serif;
-    color: white;
-    text-align: center;
-    display: inline;
-    margin-top: 0;
-}
+    .projectinfo {
+        margin-top: 10px;
+        margin-left: 70px; 
+        text-align: center;
+    }
 
-.myproject {
-    margin-top: 10px;
-    font-family: "exo", sans-serif;
-    color:white;
-    padding-top: 10px;
-    font-size: 18px;
-}
+    .projecth {
+        font-family: "roboto", sans-serif;
+        color: white;
+        text-align: center;
+        display: inline;
+        margin-top: 0;
+    }
 
-.project-text {
-    text-align: justify;
-    margin-bottom: 30px;
-}
+    .myproject {
+        margin-top: 10px;
+        font-family: "exo", sans-serif;
+        color:white;
+        padding-top: 10px;
+        font-size: 18px;
+    }
 
-.resumebtn {
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+    .project-text {
+        text-align: justify;
+        margin-bottom: 30px;
+    }
 
-.projectbtn {
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+    .resumebtn {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
 
-.cafebtn {
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+    .projectbtn {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
 
-.projectfirst div.col img {
-    margin-left: 20px;
-}
+    .cafebtn {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
 
-.projectsecond div.col img {
-    margin-left: 20px;
-}
+    .projectfirst div.col img {
+        margin-left: 20px;
+    }
 
-.projectthird div.col img {
-    margin-left: 20px;
-}
+    .projectsecond div.col img {
+        margin-left: 20px;
+    }
+
+    .projectthird div.col img {
+        margin-left: 20px;
+    }
+
 /*--------------------------------------------My Projects*/
+
 /*--------------------------------------------Contact page*/
-.contactpage {
-	width:100%;
-	font-family: "roboto", sans-serif;
-}
 
-.contactheader {
-	font-family: "roboto", sans-serif;
-	text-transform: uppercase;
-    letter-spacing:1px;
-    margin-top: 150px;
-}
+    .contactpage {
+        width:100%;
+        font-family: "roboto", sans-serif;
+    }
 
-.contactp {
-	font-size:18px;
-    line-height:1.6em;
-    margin-top: 30px;
-}
-    
-.contactpage{
-    color:#f4f4f4;
-}
+    .contactheader {
+        font-family: "roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing:1px;
+        margin-top: 150px;
+    }
 
-textarea.form-control{
-    height:100px;
-}
+    .contactp {
+        font-size:18px;
+        line-height:1.6em;
+        margin-top: 30px;
+    }
+        
+    .contactpage{
+        color:#f4f4f4;
+    }
 
-.contactfloat {
-    margin-top: 20px;
-    margin-left: 0;
-	font-family: "roboto", sans-serif;
-	text-transform: uppercase;
-	letter-spacing:1px;
-}
+    textarea.form-control{
+        height:100px;
+    }
 
-.submitbtn {
-    margin-top: 20px;
-    margin-bottom: 40px;
-    color: #f4f4f4;
-    background-color: #32CD32;
-}
+    .contactfloat {
+        margin-top: 20px;
+        margin-left: 0;
+        font-family: "roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing:1px;
+    }
 
-.downloadcv {
-  margin-left: 135px;
-}
+    .submitbtn {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        color: #f4f4f4;
+        background-color: #32CD32;
+    }
+
+    .downloadcv {
+    margin-left: 135px;
+    }
+
 /*--------------------------------------------Contact page*/
+
 /*--------------------------------------------Footer*/
-.footer {
-    width: 80%;
-}
+
+    .footer {
+        width: 80%;
+    }
+
 /*--------------------------------------------Footer*/
 }
 
 @media only screen and (min-width: 320px) and (max-width: 568px) {
 
 /*--------------------------------------------Homepage*/
-.hero img {
-    margin-top: 80px;
-    margin-left: 25px;
-    height: 250px;
-    width: 250px;
-}
 
-.menu p {
-    font-family: "roboto", sans-serif;
-    color: white;
-    font-size: 15px;
-    margin-top: 50px;
-    text-align: center;
-    text-decoration: none;
-}
+    .hero img {
+        margin-top: 80px;
+        margin-left: 25px;
+        height: 250px;
+        width: 250px;
+    }
 
-.menuskill {
-    background-color: #FF1493;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 80px;
-}
+    .menu p {
+        font-family: "roboto", sans-serif;
+        color: white;
+        font-size: 15px;
+        margin-top: 50px;
+        text-align: center;
+        text-decoration: none;
+    }
 
-.menuwork {
-    background-color: #32CD32;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 80px;
-    margin-top: 0;
-}
+    .menuskill {
+        background-color: #FF1493;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 80px;
+    }
 
-.menucontact {
-    background-color: #40CCFF;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 80px;
-    margin-top: 0;
-}
+    .menuwork {
+        background-color: #32CD32;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 80px;
+        margin-top: 0;
+    }
 
-.aboutme {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-family: "exo", sans-serif;
-    color:white;
-    padding-top: 10px;
-    font-size: 16px;
-}
+    .menucontact {
+        background-color: #40CCFF;
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        display: inline-block;
+        margin-left: 80px;
+        margin-top: 0;
+    }
+
+    .aboutme {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family: "exo", sans-serif;
+        color:white;
+        padding-top: 10px;
+        font-size: 16px;
+    }
+
 /*--------------------------------------------Homepage*/
+
 /*--------------------------------------------Resume page*/
-.downloadcv {
-    width: 40%;
-    margin-top: 60px;
-    margin-bottom: 40px;
-    margin-left: 30%;
-    background-color: #32CD32;
-    border-radius: 5px;
-    
-}
 
-.downloadcv p {
-   color: #f4f4f4;
-   font-family: "roboto", sans-serif;
-   text-transform: uppercase;
-   letter-spacing:1px; 
-   margin-left: 0;
-   margin-top: 15px;
-}
+    .downloadcv {
+        width: 40%;
+        margin-top: 60px;
+        margin-bottom: 40px;
+        margin-left: 30%;
+        background-color: #32CD32;
+        border-radius: 5px;
+        
+    }
 
-.languages h1 {
-    margin-top: 80px;
-    margin-left: 60px;
-    font-size: 30px;
-}
-
-.myexperience p {
-    font-size: 16px;
-}
-
-.myeducation p {
-    font-size: 16px;
-}
-
-.myeducation, .myexperience {
-    padding-left: 15px;
-    margin-top: 40px;
-    width: 90%;
-}
-
-.languagefirst {
-    font-size: 16px;
-    margin-left: 70px;
-}
-
-.languagesecond {
-    font-size: 16px;
-    margin-left: 70px;
-}
-
-.languagethird {  
-    font-size: 16px;
-    margin-left: 70px;
-}
-/*--------------------------------------------Resume page*/
-/*--------------------------------------------My Projects*/
-.projectheader {
-    margin-top: 120px;
-}
-
-.projecthero {
-    margin-left: 0;
-    margin-bottom: 10px; 
-    height:170px;
-    width: 250px;
-}
-
-.projectinfo {
-    margin-top: 10px;
-    margin-left: 0; 
-    margin-right: auto;
-    text-align: center;
-}
-
-.projecth {
+    .downloadcv p {
+    color: #f4f4f4;
     font-family: "roboto", sans-serif;
-    color: white;
-    text-align: center;
-    display: inline;
-    margin-top: 0;
-}
+    text-transform: uppercase;
+    letter-spacing:1px; 
+    margin-left: 0;
+    margin-top: 15px;
+    }
 
-.myproject {
-    margin-top: 10px;
-    font-family: "exo", sans-serif;
-    color:white;
-    padding-top: 10px;
-    font-size: 18px;
-}
+    .languages h1 {
+        margin-top: 80px;
+        margin-left: 60px;
+        font-size: 30px;
+    }
 
-.project-text {
-    text-align: justify;
-    margin-bottom: 30px;
-}
+    .myexperience p {
+        font-size: 16px;
+    }
 
-.resumebtn {
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+    .myeducation p {
+        font-size: 16px;
+    }
 
-.projectbtn {
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+    .myeducation, .myexperience {
+        padding-left: 15px;
+        margin-top: 40px;
+        width: 90%;
+    }
 
-.cafebtn {
-    margin-bottom: 20px;
-    margin-left: 10px;
-}
+    .languagefirst {
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+    .languagesecond {
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+    .languagethird {  
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+/*--------------------------------------------Resume page*/
+
 /*--------------------------------------------My Projects*/
+
+    .projectheader {
+        margin-top: 120px;
+    }
+
+    .projecthero {
+        margin-left: 0;
+        margin-bottom: 10px; 
+        height:170px;
+        width: 250px;
+    }
+
+    .projectinfo {
+        margin-top: 10px;
+        margin-left: 0; 
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .projecth {
+        font-family: "roboto", sans-serif;
+        color: white;
+        text-align: center;
+        display: inline;
+        margin-top: 0;
+    }
+
+    .myproject {
+        margin-top: 10px;
+        font-family: "exo", sans-serif;
+        color:white;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+
+    .project-text {
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+
+    .resumebtn {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .projectbtn {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .cafebtn {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+/*--------------------------------------------My Projects*/
+
 /*--------------------------------------------Contact page*/
 
-.contactheader {
-	font-family: "roboto", sans-serif;
-	text-transform: uppercase;
-    letter-spacing:1px;
-    margin-top: 130px;
-}	
+    .contactheader {
+        font-family: "roboto", sans-serif;
+        text-transform: uppercase;
+        letter-spacing:1px;
+        margin-top: 130px;
+    }	
+
 /*--------------------------------------------Contact page*/
+
 /*--------------------------------------------Footer*/
-.footer {
-    width: 90%;
-}
+
+    .footer {
+        width: 90%;
+    }
+
 /*--------------------------------------------Footer*/
 }
 
