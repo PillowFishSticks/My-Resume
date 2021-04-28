@@ -1,4 +1,4 @@
-[The Resume Website](website) was designed, built and deployed by Mark Percy as his first project for the Code Institute Full Stack Web Development diploma. The purpose of the resume website is to showcase experience and projects to potential employers, including education, work experience, and projects completed. 
+[The Resume Website](https://pillowfishsticks.github.io/My-Resume/) was designed, built and deployed by Mark Percy as his first project for the Code Institute Full Stack Web Development diploma. The purpose of the resume website is to showcase experience and projects to potential employers, including education, work experience, and projects completed. 
 
 ## Table of Contents
 1. [UX](#ux)
