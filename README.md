@@ -269,6 +269,9 @@ To clone this project from GitHub
 
 ## Images
 - Project images were taken from Code Institutes mini projects that we had to complete.
+    - [Resume](https://github.com/Code-Institute-Solutions/resume-miniproject-bootstrap4)
+    - [Love Running](https://github.com/Code-Institute-Solutions/Love-Running-Solutions)
+    - [Codders CoffeeHouse](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSE101+2020_Q2/courseware/d6dd40a51a9543e78b59924c739abff5/2f123befba874366823427fa9f2a2262/)
 - The profile image was taken from my personal collection of photos. 
 
 ## Code
