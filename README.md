@@ -166,10 +166,10 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) during the
 
 **Introdcution**
 - Below the navbar is a circular profile picture and next to that is a description of the site owner. 
-- Below the description are three buttons 'My Skills', 'My Work', and 'My Contact'.
+- Below the description are three buttons 'My Skills', 'My Porfolio', and 'Lets connect'.
 - 'My Skills' takes you to the Resume page. 
-- 'My Work' takes you to the Projects page.
-- 'My Contact' takes you to the Contact page. 
+- 'My Portfolio' takes you to the Projects page.
+- 'Lets Connect' takes you to the Contact page. 
 
 
 **Three reasons to hire**
